@@ -1,0 +1,19 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"10 array.c
+[v _str `uc ~T0 @X0 -> 11 `i e ]
+[i _str
+:U ..
+-> 0 `c
+-> 0 `c
+..
+]
+[; ;array.c: 10: unsigned char str[11] = "\0";
+"11
+[v _time `uc ~T0 @X0 -> 0 `x e ]
+[i _time
+:U ..
+-> 0 `c
+-> 0 `c
+..
+]
+[; ;array.c: 11: unsigned char time[] = "\0";

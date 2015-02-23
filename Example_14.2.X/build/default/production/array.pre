@@ -1,0 +1,6 @@
+
+# 1 "array.c"
+
+# 10
+unsigned char str[11] = "\0";
+unsigned char time[] = "\0";

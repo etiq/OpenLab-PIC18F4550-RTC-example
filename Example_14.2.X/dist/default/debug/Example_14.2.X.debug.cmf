@@ -1,0 +1,1450 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\tbi\AppData\Local\Temp\s3rg.obj
+end_init CODE 0 2 2 4 1
+reset_vec CODE 0 0 0 2 1
+idloc IDLOC 0 200000 200000 8 1
+config CONFIG 0 300000 300000 E 1
+$dist/default/debug\Example_14.2.X.debug.obj
+text49 CODE 0 6AF6 6AF6 4A 1
+text48 CODE 0 68A2 68A2 1C 1
+text47 CODE 0 67F2 67F2 C 1
+text46 CODE 0 6E22 6E22 5C 1
+text45 CODE 0 6852 6852 10 1
+text44 CODE 0 67FE 67FE E 1
+text43 CODE 0 6876 6876 16 1
+text42 CODE 0 680C 680C E 1
+text41 CODE 0 68DA 68DA 20 1
+text40 CODE 0 68FA 68FA 20 1
+text39 CODE 0 6CC4 6CC4 56 1
+text38 CODE 0 695A 695A 22 1
+text37 CODE 0 71FA 71FA CA 1
+text36 CODE 0 6862 6862 14 1
+text35 CODE 0 681A 681A E 1
+text34 CODE 0 6A7A 6A7A 38 1
+text33 CODE 0 6A16 6A16 2E 1
+text32 CODE 0 6A44 6A44 36 1
+text31 CODE 0 699E 699E 26 1
+text30 CODE 0 688C 688C 16 1
+text29 CODE 0 6C70 6C70 54 1
+text28 CODE 0 78B8 78B8 17E 1
+text27 CODE 0 69C4 69C4 26 1
+text26 CODE 0 7094 7094 AC 1
+text25 CODE 0 74B8 74B8 13E 1
+text24 CODE 0 6AB2 6AB2 44 1
+text23 CODE 0 6828 6828 E 1
+text22 CODE 0 691A 691A 20 1
+text21 CODE 0 67E8 67E8 A 1
+text20 CODE 0 6836 6836 E 1
+text19 CODE 0 68BE 68BE 1C 1
+text18 CODE 0 6F54 6F54 9E 1
+text17 CODE 0 67E4 67E4 4 1
+text16 CODE 0 6FF2 6FF2 A2 1
+text15 CODE 0 7A36 7A36 2CA 1
+text14 CODE 0 693A 693A 20 1
+text13 CODE 0 69EA 69EA 2C 1
+text12 CODE 0 6B40 6B40 4A 1
+text11 CODE 0 6B8A 6B8A 4A 1
+text10 CODE 0 7140 7140 BA 1
+text9 CODE 0 6C1E 6C1E 52 1
+text8 CODE 0 75F6 75F6 156 1
+text7 CODE 0 6844 6844 E 1
+text6 CODE 0 6DC8 6DC8 5A 1
+text5 CODE 0 6BD4 6BD4 4A 1
+text4 CODE 0 6D70 6D70 58 1
+text3 CODE 0 73BA 73BA FE 1
+text2 CODE 0 697C 697C 22 1
+text1 CODE 0 6EE6 6EE6 6E 1
+text0 CODE 0 774C 774C 16C 1
+cstackCOMRAM COMRAM 1 1 1 5F 1
+cstackBANK0 BANK0 1 60 60 92 1
+dataBANK2 BANK2 1 200 200 68 1
+dataBANK1 BANK1 1 100 100 F5 1
+bssBANK0 BANK0 1 F2 F2 E 1
+cinit CODE 0 6D1A 6D1A 56 1
+idataBANK2 CODE 0 6E7E 6E7E 68 1
+idataBANK1 CODE 0 72C5 72C5 F5 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+BANK1 0001F5-0001FF 1
+BANK2 000268-0002FF 1
+BANK3 000300-0003EE 1
+BANK4 000400-0004FF 1
+BANK5 000500-0005FF 1
+BANK6 000600-0006FF 1
+BANK7 000700-0007FF 1
+BIGRAM 0001F5-0001FF 1
+BIGRAM 000268-0003EE 1
+BIGRAM 000400-0007FF 1
+CODE 000006-0067E3 1
+CODE 0072C4-0072C4 1
+CONST 000006-0067E3 1
+CONST 0072C4-0072C4 1
+EEDATA F00000-F000FF 1
+MEDIUMCONST 000800-0067E3 1
+MEDIUMCONST 0072C4-0072C4 1
+RAM 0001F5-0001FF 1
+RAM 000268-0003EE 1
+RAM 000400-0007FF 1
+SFR 000F60-000F9B 1
+SFR 000F9D-000FD3 1
+SFR 000FD5-000FDA 1
+SFR 000FE0-000FE2 1
+SFR 000FE8-000FEA 1
+SFR 000FF0-000FFB 1
+SMALLCONST 000800-0067E3 1
+SMALLCONST 0072C4-0072C4 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <file name>:<line number> <address> <psect name> <class name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/debug\Example_14.2.X.debug.obj
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_clos.c":21 67E4 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_clos.c":22 67E6 text17 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":31 67E8 text21 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":32 67EC text21 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":33 67F0 text21 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_idle.c":26 67F2 text47 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_idle.c":28 67FC text47 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c":55 67FE text44 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c":59 680A text44 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\d10tcyx.c":11 680C text42 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\d10tcyx.c":12 6814 text42 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\d10tcyx.c":13 6818 text42 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":28 681A text35 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":29 6822 text35 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":30 6824 text35 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":29 6826 text35 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\d1ktcyx.c":11 6828 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\d1ktcyx.c":12 6830 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\d1ktcyx.c":13 6834 text23 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":40 6836 text20 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":41 683E text20 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":42 6842 text20 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":333 6844 text7 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":334 6850 text7 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":23 6852 text45 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":24 6860 text45 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uwrite.c":15 6862 text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uwrite.c":17 6866 text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uwrite.c":18 6868 text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uwrite.c":19 686E text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uwrite.c":22 6870 text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uwrite.c":23 6874 text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\d10ktcyx.c":11 6876 text43 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\d10ktcyx.c":12 6886 text43 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\d10ktcyx.c":13 688A text43 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":46 688C text30 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":47 68A0 text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_read.c":13 68A2 text48 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_read.c":14 68B4 text48 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_read.c":15 68B6 text48 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_read.c":16 68BA text48 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_read.c":17 68BC text48 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_open.c":16 68BE text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_open.c":17 68C2 text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_open.c":18 68C6 text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_open.c":19 68CA text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_open.c":20 68CE text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_open.c":22 68D2 text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_open.c":23 68D4 text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_open.c":24 68D6 text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_open.c":26 68D8 text19 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c":48 68DA text41 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c":50 68E4 text41 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c":48 68F0 text41 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c":52 68F8 text41 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":47 68FA text40 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":48 68FE text40 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":49 6902 text40 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":50 6904 text40 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":51 6906 text40 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":52 690A text40 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":53 690C text40 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":54 6910 text40 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":55 6912 text40 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":56 6916 text40 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":60 6918 text40 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c":20 691A text22 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c":21 6924 text22 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c":20 6930 text22 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c":26 6938 text22 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c":30 693A text14 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c":31 6944 text14 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c":30 6950 text14 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c":35 6958 text14 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":24 695A text38 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":25 695C text38 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":26 695E text38 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":27 6962 text38 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":28 6964 text38 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":30 6968 text38 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":32 696C text38 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":33 696E text38 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":34 6970 text38 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":38 6974 text38 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":39 6976 text38 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":40 6978 text38 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":43 697A text38 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":65 697C text2 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":66 6980 text2 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":67 6984 text2 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":68 6986 text2 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":69 6988 text2 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":70 698C text2 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":71 698E text2 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":72 6992 text2 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":73 6994 text2 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":74 6998 text2 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":75 699A text2 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":78 699C text2 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":36 699E text31 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":37 69B0 text31 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":38 69B4 text31 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":39 69C2 text31 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":55 69C4 text27 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":57 69CE text27 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":58 69DA text27 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":55 69DE text27 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":60 69E6 text27 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":55 69E8 text27 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":49 69EA text13 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":50 69F0 text13 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":51 69FC text13 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":52 6A08 text13 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":53 6A0E text13 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":54 6A12 text13 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":55 6A14 text13 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":47 6A16 text33 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":48 6A1A text33 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":49 6A20 text33 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":50 6A2C text33 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":51 6A38 text33 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":52 6A40 text33 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":53 6A42 text33 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":34 6A44 text32 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":35 6A50 text32 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":37 6A52 text32 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":38 6A62 text32 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":39 6A66 text32 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":35 6A6A text32 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":42 6A76 text32 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":35 6A78 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uread.c":19 6A7A text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uread.c":21 6A82 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uread.c":23 6A86 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uread.c":24 6A8C text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uread.c":25 6A90 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uread.c":28 6A96 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uread.c":29 6A9A text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uread.c":31 6AA0 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uread.c":32 6AA4 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uread.c":34 6AAA text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uread.c":36 6AAE text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uread.c":37 6AB0 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\strcmp.c":37 6AB2 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\strcmp.c":38 6AB4 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\strcmp.c":39 6AB8 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\strcmp.c":37 6ABC text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\strcmp.c":41 6AEA text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\strcmp.c":42 6AF4 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_writ.c":14 6AF6 text49 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_writ.c":15 6AFA text49 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_writ.c":19 6AFE text49 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_writ.c":21 6B12 text49 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_writ.c":22 6B14 text49 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_writ.c":24 6B18 text49 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_writ.c":33 6B20 text49 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_writ.c":35 6B34 text49 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_writ.c":36 6B38 text49 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_writ.c":37 6B3C text49 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\i2c\i2c_writ.c":43 6B3E text49 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":226 6B40 text12 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":227 6B4C text12 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":228 6B52 text12 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":229 6B64 text12 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":230 6B68 text12 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":231 6B78 text12 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":232 6B7C text12 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":233 6B88 text12 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":240 6B8A text11 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":241 6B96 text11 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":242 6B9C text11 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":243 6BAE text11 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":244 6BB2 text11 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":245 6BC2 text11 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":246 6BC6 text11 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":247 6BD2 text11 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":357 6BD4 text5 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":358 6BE0 text5 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":359 6BE6 text5 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":360 6BF8 text5 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":361 6BFC text5 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":362 6C0C text5 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":363 6C10 text5 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":364 6C1C text5 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":286 6C1E text9 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":287 6C2A text9 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":289 6C2C text9 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":290 6C40 text9 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":291 6C44 text9 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":287 6C48 text9 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":293 6C56 text9 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":294 6C62 text9 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":295 6C6E text9 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":59 6C70 text29 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":60 6C7C text29 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":61 6C88 text29 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":63 6C92 text29 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":64 6C96 text29 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":65 6C9C text29 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":66 6CA8 text29 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":67 6CB0 text29 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":68 6CB4 text29 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":61 6CB8 text29 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":70 6CC0 text29 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c":61 6CC2 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\XLCD\setddram.c":32 6CC4 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\XLCD\setddram.c":33 6CC8 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\XLCD\setddram.c":34 6CCC text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\XLCD\setddram.c":36 6CEE text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\XLCD\setddram.c":37 6CF0 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\XLCD\setddram.c":38 6CF2 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\XLCD\setddram.c":39 6CF6 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\XLCD\setddram.c":40 6CF8 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\XLCD\setddram.c":41 6CFC text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\XLCD\setddram.c":46 6CFE text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\XLCD\setddram.c":47 6D02 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\XLCD\setddram.c":49 6D08 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\XLCD\setddram.c":50 6D0C text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\XLCD\setddram.c":51 6D0E text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\XLCD\setddram.c":52 6D12 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\XLCD\setddram.c":56 6D14 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\XLCD\setddram.c":60 6D18 text39 CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2277 6D1A cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2278 6D1E cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2280 6D20 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2281 6D22 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2282 6D24 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2287 6D26 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2288 6D28 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2289 6D2A cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2290 6D2C cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2291 6D2E cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2292 6D30 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2293 6D32 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2294 6D36 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2296 6D3A cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2297 6D3C cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2298 6D40 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2299 6D42 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2300 6D44 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2304 6D46 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2305 6D48 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2306 6D4A cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2307 6D4C cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2308 6D4E cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2309 6D50 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2310 6D52 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2311 6D56 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2313 6D5A cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2314 6D5C cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2315 6D60 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2316 6D62 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2317 6D64 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2325 6D66 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2326 6D68 cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2327 6D6A cinit CODE
+"C:\Users\tbi\AppData\Local\Temp\s3rg.":2328 6D6C cinit CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":372 6D70 text4 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":373 6D7C text4 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":374 6D82 text4 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":375 6D92 text4 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":376 6D96 text4 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":377 6DA6 text4 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":378 6DAA text4 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":379 6DB6 text4 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":380 6DBA text4 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":381 6DC6 text4 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":341 6DC8 text6 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":342 6DD4 text6 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":343 6DE0 text6 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":344 6DE4 text6 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":345 6DEA text6 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":346 6DFC text6 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":347 6E00 text6 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":348 6E10 text6 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":349 6E14 text6 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":350 6E20 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":75 6E22 text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":76 6E26 text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":78 6E2A text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":79 6E2C text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":81 6E2E text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":83 6E32 text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":84 6E34 text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":87 6E36 text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":88 6E38 text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":90 6E3A text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":91 6E3E text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":93 6E42 text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":95 6E44 text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":96 6E46 text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":98 6E48 text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":100 6E4A text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":101 6E4C text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":103 6E4E text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":104 6E52 text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":106 6E56 text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":108 6E58 text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":110 6E5A text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":111 6E5E text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":113 6E62 text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":115 6E64 text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":116 6E68 text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":118 6E6C text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":119 6E6E text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":137 6E70 text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":138 6E74 text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":139 6E7A text46 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic18\plib\USART\uopen.c":143 6E7C text46 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":126 6EEE text1 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":127 6EFA text1 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":129 6EFC text1 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":130 6F0C text1 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":131 6F10 text1 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":127 6F12 text1 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":133 6F1A text1 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":134 6F1E text1 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":135 6F26 text1 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":136 6F32 text1 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":138 6F34 text1 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":139 6F44 text1 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":140 6F48 text1 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":136 6F4A text1 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":142 6F50 text1 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":136 6F52 text1 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":59 6F54 text18 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":60 6F68 text18 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":61 6F74 text18 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":62 6F7A text18 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":63 6F7E text18 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":64 6F8A text18 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":65 6F96 text18 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":66 6FA2 text18 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":67 6FAE text18 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":68 6FB6 text18 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":69 6FC2 text18 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":70 6FCA text18 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":71 6FD6 text18 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":72 6FDE text18 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":73 6FEA text18 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":74 6FEE text18 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":73 6FF0 text18 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":81 6FF2 text16 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":82 6FF8 text16 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":83 6FFC text16 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":84 7008 text16 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":85 7014 text16 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":86 7020 text16 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":87 702C text16 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":88 7034 text16 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":89 7040 text16 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":90 7048 text16 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":91 7054 text16 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":92 705C text16 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":93 7068 text16 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":94 7070 text16 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":95 707C text16 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":96 7082 text16 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":97 7086 text16 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":98 7092 text16 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":117 7094 text26 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":118 70A6 text26 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":121 70B8 text26 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":122 70C4 text26 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":125 70DC text26 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":126 70F4 text26 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":127 7106 text26 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":128 7116 text26 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":130 7122 text26 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":133 7126 text26 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":136 7132 text26 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":137 713E text26 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":253 7140 text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":254 7148 text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":255 714E text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":256 715A text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":258 7162 text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":259 7174 text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":260 7178 text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":261 7188 text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":262 718C text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":263 7198 text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":265 719A text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":266 719E text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":263 71A0 text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":268 71A8 text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":270 71BC text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":271 71D0 text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":273 71DC text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":274 71E8 text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":275 71EC text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":277 71F8 text10 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":83 71FA text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":84 71FE text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":86 7202 text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":87 7204 text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":88 7206 text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":89 7208 text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":90 720A text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":91 720C text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":94 720E text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":96 7212 text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":97 721E text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":98 722A text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":99 7236 text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":100 7242 text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":101 724E text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":105 7258 text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":106 7262 text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":109 726A text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":110 7274 text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":111 7280 text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":112 728A text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":115 7296 text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":116 72A0 text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":118 72AC text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":119 72B6 text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c":121 72C2 text37 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":102 73BA text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":103 73CE text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":104 73DA text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":105 73E0 text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":106 73EC text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":107 73F8 text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":108 7404 text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":109 7410 text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":110 741C text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":111 7434 text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":112 7444 text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":113 7454 text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":114 7468 text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":115 746C text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":116 747C text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":117 748C text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":118 749C text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":119 74A0 text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":120 74A8 text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":121 74AC text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":122 74B2 text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c":123 74B6 text3 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":144 74B8 text25 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":147 74DC text25 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":148 74E8 text25 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":149 7500 text25 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":150 751A text25 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":151 7534 text25 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":152 754E text25 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":153 7560 text25 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":154 7572 text25 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":155 7584 text25 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":157 75A8 text25 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":158 75BE text25 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":160 75D4 text25 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":162 75D6 text25 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":163 75E2 text25 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":164 75F4 text25 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":301 75F6 text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":302 7606 text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":303 7616 text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":304 7626 text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":305 7636 text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":306 7646 text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":307 7656 text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":309 7666 text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":311 7668 text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":312 7680 text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":313 7682 text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":314 769A text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":315 769C text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":316 76B4 text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":317 76B6 text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":318 76CE text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":319 76D0 text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":320 76E8 text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":321 76EA text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":322 7702 text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":323 7704 text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":324 771C text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":309 771E text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":326 774A text8 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":77 774C text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":78 775E text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":79 7770 text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":80 7780 text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":81 7790 text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":82 7794 text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":83 77A8 text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":84 77B8 text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":87 77C8 text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":88 77D8 text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":89 77E2 text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":90 77FA text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":91 7806 text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":94 781E text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":95 782E text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":96 785E text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":97 786E text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":100 787E text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":101 7886 text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":102 7896 text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c":103 78A6 text0 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":72 78B8 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":73 78CA text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":76 78DC text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":77 78E8 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":78 7900 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":79 7912 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":80 7924 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":81 7936 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":82 7940 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":83 794A text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":84 7954 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":86 7960 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":88 7978 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":89 797E text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":90 7984 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":91 798A text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":92 798E text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":93 7994 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":94 799A text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":95 79A0 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":98 79A2 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":100 79B0 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":103 79CA text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":104 79D0 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":106 79D2 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":107 79DE text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":109 7A10 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":110 7A1C text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":111 7A28 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":112 7A34 text28 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":171 7A36 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":172 7A46 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":173 7A58 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":174 7A6A text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":175 7A7C text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":176 7A88 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":177 7A94 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":178 7AA0 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":179 7AAC text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":180 7AB8 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":183 7AC4 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":184 7AD4 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":185 7AF0 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":188 7B14 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":189 7B24 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":190 7B40 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":192 7B88 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":194 7B90 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":196 7BD8 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":197 7BE8 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":200 7BEA text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":202 7BFA text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":204 7C10 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":206 7C34 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":207 7C44 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":210 7C46 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":212 7C56 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":213 7C76 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":214 7CA2 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":215 7CB2 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":216 7CBC text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":217 7CE4 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":218 7CF8 text15 CODE
+"C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c":219 7CFE text15 CODE
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+__size_of_Write_I2C 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+Read_min@e 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Write_ARR 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+WriteCmdXLCD@cmd 4 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Get_data@h A9 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Write_str 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+_SetDDRamAddr 6CC4 0 CODE 0 text39 dist/default/debug\Example_14.2.X.debug.obj
+Read_year@e 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__end_of_BusyXLCD 697C 0 CODE 0 text38 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_OpenUSART 6E7E 0 CODE 0 text46 dist/default/debug\Example_14.2.X.debug.obj
+__S0 30000E 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+Set_time@h 4D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__S1 268 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+?_SetDDRamAddr 4 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Read_hour@c 2D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Write_time 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Hintentry 0 0 ABS 0 intentry dist/default/debug\Example_14.2.X.debug.obj
+__CFG_PWRT$OFF 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Lintentry 0 0 ABS 0 intentry dist/default/debug\Example_14.2.X.debug.obj
+Write_str@c 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+?_WriteUSART 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Read_hour 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+_str F3 0 BANK0 1 bssBANK0 dist/default/debug\Example_14.2.X.debug.obj
+Clear_array@n 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Read_month@e 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__CFG_PLLDIV$5 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+_Write_time_XLCD 6EE6 0 CODE 0 text1 dist/default/debug\Example_14.2.X.debug.obj
+Get_data@month AC 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+Set_date@month B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Write_time_ 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+Set_day@str5 A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Set_time@min B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Get_data@m A8 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+_Read 69EA 0 CODE 0 text13 dist/default/debug\Example_14.2.X.debug.obj
+delay_ms@i 24 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+write_DAY@F256 1C7 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+_time FE 0 BANK0 1 bssBANK0 dist/default/debug\Example_14.2.X.debug.obj
+Read_hour@e 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_main 774C 0 CODE 0 text0 dist/default/debug\Example_14.2.X.debug.obj
+Write_time@day 25 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+start 2 0 CODE 0 init C:\Users\tbi\AppData\Local\Temp\s3rg.obj
+Set_time@m 49 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+delay_us@i 4 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_BCD_to_DEC 688C 0 CODE 0 text30 dist/default/debug\Example_14.2.X.debug.obj
+_Read_sec 6B40 0 CODE 0 text12 dist/default/debug\Example_14.2.X.debug.obj
+main@mode EF 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+WriteUSART@data 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_Get_data 7A36 0 CODE 0 text15 dist/default/debug\Example_14.2.X.debug.obj
+_RCREG FAE 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+_RCSTA FAB 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+_TRISB F93 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+_TXREG FAD 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+_TRISD F95 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+_PORTB F81 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Set_day 7140 0 CODE 0 text26 dist/default/debug\Example_14.2.X.debug.obj
+_SPBRG FAF 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Hirdata 0 0 CODE 0 irdata dist/default/debug\Example_14.2.X.debug.obj
+_TXSTA FAC 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Lirdata 0 0 CODE 0 irdata dist/default/debug\Example_14.2.X.debug.obj
+__HRAM 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+_PORTD F83 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__LRAM 1 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Read_month 6C1E 0 CODE 0 text5 dist/default/debug\Example_14.2.X.debug.obj
+__Hconfig 30000E 0 CONFIG 0 config dist/default/debug\Example_14.2.X.debug.obj
+__size_of_BCD_format 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Lconfig 300000 0 CONFIG 0 config dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Write_str 6A7A 0 CODE 0 text32 dist/default/debug\Example_14.2.X.debug.obj
+_Set_date 74B8 0 CODE 0 text25 dist/default/debug\Example_14.2.X.debug.obj
+Read@c 26 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_Set_time 78B8 0 CODE 0 text28 dist/default/debug\Example_14.2.X.debug.obj
+write_DAY@F260 1CF 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+OpenXLCD@lcdtype 8 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+main@c F1 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_write_DAY 774C 0 CODE 0 text8 dist/default/debug\Example_14.2.X.debug.obj
+Get_data@F231 171 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+Get_data@s A7 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+_Read_string 6C70 0 CODE 0 text29 dist/default/debug\Example_14.2.X.debug.obj
+__Hbigram 0 0 ABS 0 bigram dist/default/debug\Example_14.2.X.debug.obj
+__Lbigram 0 0 ABS 0 bigram dist/default/debug\Example_14.2.X.debug.obj
+__Hrparam 0 0 ABS 0 rparam dist/default/debug\Example_14.2.X.debug.obj
+__Lrparam 0 0 ABS 0 rparam dist/default/debug\Example_14.2.X.debug.obj
+Read_string@buffer 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__Hram 0 0 ABS 0 ram dist/default/debug\Example_14.2.X.debug.obj
+__Lram 0 0 ABS 0 ram dist/default/debug\Example_14.2.X.debug.obj
+__size_of_WriteUSART 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__size_of_ReadUSART 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Hcomram 0 0 ABS 0 comram dist/default/debug\Example_14.2.X.debug.obj
+__Lcomram 0 0 ABS 0 comram dist/default/debug\Example_14.2.X.debug.obj
+Set_time@s 48 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_Write 681A 0 CODE 0 text35 dist/default/debug\Example_14.2.X.debug.obj
+__Hsfr 0 0 ABS 0 sfr dist/default/debug\Example_14.2.X.debug.obj
+__Lsfr 0 0 ABS 0 sfr dist/default/debug\Example_14.2.X.debug.obj
+?_Write_time_ 25 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__Hbss 0 0 RAM 1 bss dist/default/debug\Example_14.2.X.debug.obj
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Lbss 0 0 RAM 1 bss dist/default/debug\Example_14.2.X.debug.obj
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/debug\Example_14.2.X.debug.obj
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/debug\Example_14.2.X.debug.obj
+_Read_min 6B8A 0 CODE 0 text11 dist/default/debug\Example_14.2.X.debug.obj
+write_DAY@F266 1DB 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+Read_hour@i 2C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+main@F4692 100 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+Get_data@F241 1EF 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+?_BCD_to_DEC 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+?_Delay10TCYx 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+?_Read_sec 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_Read_day 6844 0 CODE 0 text7 dist/default/debug\Example_14.2.X.debug.obj
+Write@data 2 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+BCD_to_DEC@c 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+write_DAY@day_3 E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_PIE1bits F9D 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\Example_14.2.X.debug.obj
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\Example_14.2.X.debug.obj
+Set_date@str6 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__size_of_IdleI2C 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+_PIR1bits F9E 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__end_of_IdleI2C 67FE 0 CODE 0 text47 dist/default/debug\Example_14.2.X.debug.obj
+main@F4694 141 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+delay_ms@t 22 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Write_time_XLCD 6F54 0 CODE 0 text1 dist/default/debug\Example_14.2.X.debug.obj
+_LATAbits F89 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+_LATBbits F8A 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\Example_14.2.X.debug.obj
+_SSPADD FC8 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\Example_14.2.X.debug.obj
+_delay_ms 691A 0 CODE 0 text22 dist/default/debug\Example_14.2.X.debug.obj
+Set_date@x 40 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\Example_14.2.X.debug.obj
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\Example_14.2.X.debug.obj
+__Hintret 0 0 ABS 0 intret dist/default/debug\Example_14.2.X.debug.obj
+__Lintret 0 0 ABS 0 intret dist/default/debug\Example_14.2.X.debug.obj
+Set_time@x 4A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__Hramtop 800 0 RAM 0 ramtop dist/default/debug\Example_14.2.X.debug.obj
+delay_us@t 2 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__Lramtop 800 0 RAM 0 ramtop dist/default/debug\Example_14.2.X.debug.obj
+__Hstruct 0 0 COMRAM 1 struct dist/default/debug\Example_14.2.X.debug.obj
+__Lstruct 0 0 COMRAM 1 struct dist/default/debug\Example_14.2.X.debug.obj
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\Example_14.2.X.debug.obj
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\Example_14.2.X.debug.obj
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/debug\Example_14.2.X.debug.obj
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/debug\Example_14.2.X.debug.obj
+_SPBRGH FB0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/debug\Example_14.2.X.debug.obj
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/debug\Example_14.2.X.debug.obj
+__Hintcode 2 0 CODE 0 intcode dist/default/debug\Example_14.2.X.debug.obj
+_SSPBUF FC9 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Lintcode 2 0 CODE 0 intcode dist/default/debug\Example_14.2.X.debug.obj
+__Hfardata 0 0 FARRAM 0 fardata dist/default/debug\Example_14.2.X.debug.obj
+__Lfardata 0 0 FARRAM 0 fardata dist/default/debug\Example_14.2.X.debug.obj
+Set_date@y 41 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Set_time@y 4B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__Habs1 0 0 ABS 0 abs1 dist/default/debug\Example_14.2.X.debug.obj
+__Labs1 0 0 ABS 0 abs1 dist/default/debug\Example_14.2.X.debug.obj
+_delay_us 693A 0 CODE 0 text14 dist/default/debug\Example_14.2.X.debug.obj
+write_DAY@day_6 1A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Set_date@z 42 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Set_time@z 4C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_DelayPORXLCD 67FE 0 CODE 0 text44 dist/default/debug\Example_14.2.X.debug.obj
+WriteI2C@data_out 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Write_I2C 6844 0 CODE 0 text20 dist/default/debug\Example_14.2.X.debug.obj
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\Example_14.2.X.debug.obj
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\Example_14.2.X.debug.obj
+Write_time@month 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_Read_date 6DC8 0 CODE 0 text6 dist/default/debug\Example_14.2.X.debug.obj
+_Delay10KTCYx 6876 0 CODE 0 text43 dist/default/debug\Example_14.2.X.debug.obj
+__CFG_PBADEN$OFF 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+?_Set_date 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Read_string@data 8 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_Read_time 73BA 0 CODE 0 text3 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Clear_array 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+?_Set_time 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Set_time@hour D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Delay1KTCYx 6836 0 CODE 0 text23 dist/default/debug\Example_14.2.X.debug.obj
+BCD_format@str 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Get_data@day A6 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+?_Read_string 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Set_day@error 4D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Clear_array@e 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Read_day 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Hdata 0 0 ABS 0 data dist/default/debug\Example_14.2.X.debug.obj
+__Ldata 0 0 ABS 0 data dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Read_sec 6B8A 0 CODE 0 text12 dist/default/debug\Example_14.2.X.debug.obj
+Get_data@s_1 94 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Read_date 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+?_Write 2 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_delay_us 695A 0 CODE 0 text14 dist/default/debug\Example_14.2.X.debug.obj
+__CFG_CPUDIV$OSC1_PLL2 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Read_time 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__pcstackBANK0 60 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+_Read_char 6A16 0 CODE 0 text33 dist/default/debug\Example_14.2.X.debug.obj
+__Htemp 0 0 COMRAM 1 temp dist/default/debug\Example_14.2.X.debug.obj
+__Ltemp 0 0 COMRAM 1 temp dist/default/debug\Example_14.2.X.debug.obj
+__Hrbit 0 0 COMRAM 1 rbit dist/default/debug\Example_14.2.X.debug.obj
+__Lrbit 0 0 COMRAM 1 rbit dist/default/debug\Example_14.2.X.debug.obj
+__CFG_BOR$ON 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+write_DAY@day 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_strcmp 6AB2 0 CODE 0 text24 dist/default/debug\Example_14.2.X.debug.obj
+__Hinit 2 0 CODE 0 init dist/default/debug\Example_14.2.X.debug.obj
+__Linit 2 0 CODE 0 init dist/default/debug\Example_14.2.X.debug.obj
+__Hintcodelo 2 0 CODE 0 intcodelo dist/default/debug\Example_14.2.X.debug.obj
+__Lintcodelo 2 0 CODE 0 intcodelo dist/default/debug\Example_14.2.X.debug.obj
+?_Read_month 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__Hrbss 0 0 COMRAM 1 rbss dist/default/debug\Example_14.2.X.debug.obj
+__end_of_main 78B8 0 CODE 0 text0 dist/default/debug\Example_14.2.X.debug.obj
+__Lrbss 0 0 COMRAM 1 rbss dist/default/debug\Example_14.2.X.debug.obj
+?_Read_min 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__size_of_ReadI2C 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+Get_data@F233 1E3 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+__Htext 0 0 ABS 0 text dist/default/debug\Example_14.2.X.debug.obj
+__Ltext 0 0 ABS 0 text dist/default/debug\Example_14.2.X.debug.obj
+Set_date@F214 123 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+_Read_year 6D70 0 CODE 0 text4 dist/default/debug\Example_14.2.X.debug.obj
+?_Clear_array 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Write 6828 0 CODE 0 text35 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Delay10TCYx 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Delay1KTCYx 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__end_of_DelayFor18TCY 68FA 0 CODE 0 text41 dist/default/debug\Example_14.2.X.debug.obj
+?_Delay1KTCYx 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+end_of_initialization 6D66 0 CODE 0 cinit dist/default/debug\Example_14.2.X.debug.obj
+Get_data@s_2 97 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+OpenUSART@spbrg 2 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Delay10KTCYx@unit 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__CFG_USBDIV$1 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+Get_data@year AA 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+_SSPCON1 FC6 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+Get_data@str8 74 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+Get_data@F243 1F2 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+__CFG_VREGEN$OFF 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+_SSPCON2 FC5 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Read_year 6DC8 0 CODE 0 text4 dist/default/debug\Example_14.2.X.debug.obj
+Read_string@i 7 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+SetDDRamAddr@DDaddr 4 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Set_date@year D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Set_time 7A36 0 CODE 0 text28 dist/default/debug\Example_14.2.X.debug.obj
+__HdataBANK1 0 0 ABS 0 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+__LdataBANK1 0 0 ABS 0 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+__pdataBANK1 100 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+_ReadI2C 68A2 0 CODE 0 text48 dist/default/debug\Example_14.2.X.debug.obj
+_IdleI2C 67F2 0 CODE 0 text47 dist/default/debug\Example_14.2.X.debug.obj
+Get_data@s_3 9A 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Read_day 6852 0 CODE 0 text7 dist/default/debug\Example_14.2.X.debug.obj
+_OpenI2C 68BE 0 CODE 0 text19 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Read_date 6E22 0 CODE 0 text6 dist/default/debug\Example_14.2.X.debug.obj
+_WriteCmdXLCD 68FA 0 CODE 0 text40 dist/default/debug\Example_14.2.X.debug.obj
+_TRISAbits F92 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+_RCSTAbits FAB 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+_TRISBbits F93 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+_TRISCbits F94 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+?_delay_ms 22 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_TXSTAbits FAC 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Read_time 74B8 0 CODE 0 text3 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Read_hour 71FA 0 CODE 0 text10 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Delay10KTCYx 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/debug\Example_14.2.X.debug.obj
+__Libigdata 0 0 CODE 0 ibigdata dist/default/debug\Example_14.2.X.debug.obj
+__end_of_WriteCmdXLCD 691A 0 CODE 0 text40 dist/default/debug\Example_14.2.X.debug.obj
+__HdataBANK2 0 0 ABS 0 dataBANK2 dist/default/debug\Example_14.2.X.debug.obj
+__LdataBANK2 0 0 ABS 0 dataBANK2 dist/default/debug\Example_14.2.X.debug.obj
+__pdataBANK2 200 0 BANK2 1 dataBANK2 dist/default/debug\Example_14.2.X.debug.obj
+?_BCD_format 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__Hifardata 0 0 CODE 0 ifardata dist/default/debug\Example_14.2.X.debug.obj
+__Lifardata 0 0 CODE 0 ifardata dist/default/debug\Example_14.2.X.debug.obj
+Get_data@s_4 9D 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+Write_time@year 28 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__Hbank0 0 0 ABS 0 bank0 dist/default/debug\Example_14.2.X.debug.obj
+__Lbank0 0 0 ABS 0 bank0 dist/default/debug\Example_14.2.X.debug.obj
+write_DAY@F258 1CB 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+__Hbank1 0 0 ABS 0 bank1 dist/default/debug\Example_14.2.X.debug.obj
+Write_time_@m 26 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_ReadBUF 67E8 0 CODE 0 text21 dist/default/debug\Example_14.2.X.debug.obj
+__Lbank1 0 0 ABS 0 bank1 dist/default/debug\Example_14.2.X.debug.obj
+__Hbank2 0 0 ABS 0 bank2 dist/default/debug\Example_14.2.X.debug.obj
+__Lbank2 0 0 ABS 0 bank2 dist/default/debug\Example_14.2.X.debug.obj
+?_delay_us 2 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__Hbank3 0 0 ABS 0 bank3 dist/default/debug\Example_14.2.X.debug.obj
+__Lbank3 0 0 ABS 0 bank3 dist/default/debug\Example_14.2.X.debug.obj
+__Hbank4 0 0 ABS 0 bank4 dist/default/debug\Example_14.2.X.debug.obj
+__Lbank4 0 0 ABS 0 bank4 dist/default/debug\Example_14.2.X.debug.obj
+_Read_hour 7140 0 CODE 0 text10 dist/default/debug\Example_14.2.X.debug.obj
+OpenI2C@slew 2 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__Hbank5 0 0 ABS 0 bank5 dist/default/debug\Example_14.2.X.debug.obj
+__Lbank5 0 0 ABS 0 bank5 dist/default/debug\Example_14.2.X.debug.obj
+__Hpowerup 2 0 CODE 0 powerup dist/default/debug\Example_14.2.X.debug.obj
+_SSPSTAT FC7 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Lpowerup 2 0 CODE 0 powerup dist/default/debug\Example_14.2.X.debug.obj
+__Hbank6 0 0 ABS 0 bank6 dist/default/debug\Example_14.2.X.debug.obj
+__Lbank6 0 0 ABS 0 bank6 dist/default/debug\Example_14.2.X.debug.obj
+_Write_str 6A44 0 CODE 0 text32 dist/default/debug\Example_14.2.X.debug.obj
+__Hbank7 0 0 ABS 0 bank7 dist/default/debug\Example_14.2.X.debug.obj
+__Lbank7 0 0 ABS 0 bank7 dist/default/debug\Example_14.2.X.debug.obj
+__Htext0 0 0 ABS 0 text0 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext0 0 0 ABS 0 text0 dist/default/debug\Example_14.2.X.debug.obj
+_SSPCON1bits FC6 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Htext1 0 0 ABS 0 text1 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext1 0 0 ABS 0 text1 dist/default/debug\Example_14.2.X.debug.obj
+__ptext0 774C 0 CODE 0 text0 dist/default/debug\Example_14.2.X.debug.obj
+Get_data@mode AD 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+_SSPCON2bits FC5 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Htext2 0 0 ABS 0 text2 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext2 0 0 ABS 0 text2 dist/default/debug\Example_14.2.X.debug.obj
+__ptext1 6EE6 0 CODE 0 text1 dist/default/debug\Example_14.2.X.debug.obj
+__Htext3 0 0 ABS 0 text3 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext3 0 0 ABS 0 text3 dist/default/debug\Example_14.2.X.debug.obj
+__ptext2 697C 0 CODE 0 text2 dist/default/debug\Example_14.2.X.debug.obj
+__Htext4 0 0 ABS 0 text4 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext4 0 0 ABS 0 text4 dist/default/debug\Example_14.2.X.debug.obj
+__ptext3 73BA 0 CODE 0 text3 dist/default/debug\Example_14.2.X.debug.obj
+__Htext5 0 0 ABS 0 text5 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext5 0 0 ABS 0 text5 dist/default/debug\Example_14.2.X.debug.obj
+__ptext4 6D70 0 CODE 0 text4 dist/default/debug\Example_14.2.X.debug.obj
+Set_time@mode F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__Htext6 0 0 ABS 0 text6 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext6 0 0 ABS 0 text6 dist/default/debug\Example_14.2.X.debug.obj
+__ptext5 6BD4 0 CODE 0 text5 dist/default/debug\Example_14.2.X.debug.obj
+Get_data@s_5 A0 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+__Htext7 0 0 ABS 0 text7 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext7 0 0 ABS 0 text7 dist/default/debug\Example_14.2.X.debug.obj
+__ptext6 6DC8 0 CODE 0 text6 dist/default/debug\Example_14.2.X.debug.obj
+OpenUSART@config 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__Htext8 0 0 ABS 0 text8 dist/default/debug\Example_14.2.X.debug.obj
+_Write_I2C 6836 0 CODE 0 text20 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext8 0 0 ABS 0 text8 dist/default/debug\Example_14.2.X.debug.obj
+__ptext7 6844 0 CODE 0 text7 dist/default/debug\Example_14.2.X.debug.obj
+__Htext9 0 0 ABS 0 text9 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext9 0 0 ABS 0 text9 dist/default/debug\Example_14.2.X.debug.obj
+__ptext8 75F6 0 CODE 0 text8 dist/default/debug\Example_14.2.X.debug.obj
+__ptext9 6C1E 0 CODE 0 text9 dist/default/debug\Example_14.2.X.debug.obj
+__Hclrtext 0 0 ABS 0 clrtext dist/default/debug\Example_14.2.X.debug.obj
+__Lclrtext 0 0 ABS 0 clrtext dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Read_min 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Get_data 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+write_DAY@F262 1D3 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+?_Read_date 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+?_WriteI2C 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+?_Delay10KTCYx 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Get_data@F235 1E6 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+?_Read_time 2E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Set_date@F216 183 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_BCD_format 69C4 0 CODE 0 text31 dist/default/debug\Example_14.2.X.debug.obj
+Get_data@error 82 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_strcmp 6AF6 0 CODE 0 text24 dist/default/debug\Example_14.2.X.debug.obj
+_Write_time 6FF2 0 CODE 0 text16 dist/default/debug\Example_14.2.X.debug.obj
+write_DAY@day_1 6 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Read_month 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+Get_data@s_6 A3 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+Set_date@error 2E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Set_time@error 36 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__end_of__initialization 6D66 0 CODE 0 cinit dist/default/debug\Example_14.2.X.debug.obj
+write_DAY@F268 1DF 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_OpenXLCD 72C4 0 CODE 0 text37 dist/default/debug\Example_14.2.X.debug.obj
+?_OpenUSART 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_WriteUSART 6862 0 CODE 0 text36 dist/default/debug\Example_14.2.X.debug.obj
+?_write_DAY 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__size_of_CloseI2C 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+_SSPSTATbits FC7 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+write_DAY@day_4 12 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+?_Write_time_XLCD 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+?_Write_ARR 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Get_data 7D00 0 CODE 0 text15 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_WriteDataXLCD 699E 0 CODE 0 text2 dist/default/debug\Example_14.2.X.debug.obj
+WriteDataXLCD@data 4 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+strcmp@r 6 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_USART_Status F2 0 BANK0 1 bssBANK0 dist/default/debug\Example_14.2.X.debug.obj
+Write_I2C@c 22 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+ReadUSART@data 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__Hidata 0 0 CODE 0 idata dist/default/debug\Example_14.2.X.debug.obj
+__Lidata 0 0 CODE 0 idata dist/default/debug\Example_14.2.X.debug.obj
+__Hrdata 0 0 COMRAM 1 rdata dist/default/debug\Example_14.2.X.debug.obj
+__Lrdata 0 0 COMRAM 1 rdata dist/default/debug\Example_14.2.X.debug.obj
+__Hidloc 200008 0 IDLOC 0 idloc dist/default/debug\Example_14.2.X.debug.obj
+__Lidloc 200000 0 IDLOC 0 idloc dist/default/debug\Example_14.2.X.debug.obj
+write_DAY@day_7 1E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+?_WriteDataXLCD 4 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+?_OpenXLCD 8 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Write_time_XLCD@i 8 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_DelayFor18TCY 68DA 0 CODE 0 text41 dist/default/debug\Example_14.2.X.debug.obj
+__Hparam 0 0 ABS 0 rparam dist/default/debug\Example_14.2.X.debug.obj
+__Lparam 0 0 ABS 0 rparam dist/default/debug\Example_14.2.X.debug.obj
+main@config1 F0 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Write_time_XLCD@str 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Set_time@sec 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_Write_time_ 6F54 0 CODE 0 text18 dist/default/debug\Example_14.2.X.debug.obj
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug\Example_14.2.X.debug.obj
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug\Example_14.2.X.debug.obj
+_Delay10TCYx 680C 0 CODE 0 text42 dist/default/debug\Example_14.2.X.debug.obj
+?_strcmp 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_Set_day 7094 0 CODE 0 text26 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Read_sec 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/debug\Example_14.2.X.debug.obj
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Read_char 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__size_of_delay_ms 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__size_of_delay_us 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Hcinit 0 0 ABS 0 cinit dist/default/debug\Example_14.2.X.debug.obj
+__Lcinit 0 0 ABS 0 cinit dist/default/debug\Example_14.2.X.debug.obj
+__CFG_FOSC$HS 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__pcinit 6D1A 0 CODE 0 cinit dist/default/debug\Example_14.2.X.debug.obj
+__ramtop 800 0 RAM 0 ramtop C:\Users\tbi\AppData\Local\Temp\s3rg.obj
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\tbi\AppData\Local\Temp\s3rg.obj
+Get_data@F227 15E 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_main 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+Set_day@F203 195 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+__Hconst 0 0 CODE 0 const dist/default/debug\Example_14.2.X.debug.obj
+__Lconst 0 0 CODE 0 const dist/default/debug\Example_14.2.X.debug.obj
+Clear_array@i 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__size_of_WriteDataXLCD 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__size_of_OpenUSART 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+?_Read_year 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Read_string 6CC4 0 CODE 0 text29 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Write 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__end_of_ReadBUF 67F2 0 CODE 0 text21 dist/default/debug\Example_14.2.X.debug.obj
+Get_data@F237 1E9 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+_Read_month 6BD4 0 CODE 0 text5 dist/default/debug\Example_14.2.X.debug.obj
+Set_day@day 5F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Read_string 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__end_of_CloseI2C 67E8 0 CODE 0 text17 dist/default/debug\Example_14.2.X.debug.obj
+_Clear_array 69C4 0 CODE 0 text27 dist/default/debug\Example_14.2.X.debug.obj
+_Delay1KTCYx 6828 0 CODE 0 text23 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Set_date 75F6 0 CODE 0 text25 dist/default/debug\Example_14.2.X.debug.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/debug\Example_14.2.X.debug.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_WriteUSART 6876 0 CODE 0 text36 dist/default/debug\Example_14.2.X.debug.obj
+__pbssBANK0 F2 0 BANK0 1 bssBANK0 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_DelayPORXLCD 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__end_of_SetDDRamAddr 6D1A 0 CODE 0 text39 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Delay10TCYx 681A 0 CODE 0 text42 dist/default/debug\Example_14.2.X.debug.obj
+__CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__end_of_DelayPORXLCD 680C 0 CODE 0 text44 dist/default/debug\Example_14.2.X.debug.obj
+Set_day@F205 200 0 BANK2 1 dataBANK2 dist/default/debug\Example_14.2.X.debug.obj
+__Htext10 0 0 ABS 0 text10 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext10 0 0 ABS 0 text10 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_write_DAY 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Htext20 0 0 ABS 0 text20 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext20 0 0 ABS 0 text20 dist/default/debug\Example_14.2.X.debug.obj
+__ptext10 7140 0 CODE 0 text10 dist/default/debug\Example_14.2.X.debug.obj
+__Htext30 0 0 ABS 0 text30 dist/default/debug\Example_14.2.X.debug.obj
+__Htext11 0 0 ABS 0 text11 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext30 0 0 ABS 0 text30 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext11 0 0 ABS 0 text11 dist/default/debug\Example_14.2.X.debug.obj
+Write_ARR@c 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__ptext20 6836 0 CODE 0 text20 dist/default/debug\Example_14.2.X.debug.obj
+__Htext40 0 0 ABS 0 text40 dist/default/debug\Example_14.2.X.debug.obj
+__Htext21 0 0 ABS 0 text21 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext40 0 0 ABS 0 text40 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext21 0 0 ABS 0 text21 dist/default/debug\Example_14.2.X.debug.obj
+_BCD_format 699E 0 CODE 0 text31 dist/default/debug\Example_14.2.X.debug.obj
+__ptext11 6B8A 0 CODE 0 text11 dist/default/debug\Example_14.2.X.debug.obj
+__ptext30 688C 0 CODE 0 text30 dist/default/debug\Example_14.2.X.debug.obj
+__Htext31 0 0 ABS 0 text31 dist/default/debug\Example_14.2.X.debug.obj
+__Htext12 0 0 ABS 0 text12 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext31 0 0 ABS 0 text31 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext12 0 0 ABS 0 text12 dist/default/debug\Example_14.2.X.debug.obj
+__ptext21 67E8 0 CODE 0 text21 dist/default/debug\Example_14.2.X.debug.obj
+__ptext40 68FA 0 CODE 0 text40 dist/default/debug\Example_14.2.X.debug.obj
+__Htext41 0 0 ABS 0 text41 dist/default/debug\Example_14.2.X.debug.obj
+__Htext22 0 0 ABS 0 text22 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext41 0 0 ABS 0 text41 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext22 0 0 ABS 0 text22 dist/default/debug\Example_14.2.X.debug.obj
+__ptext12 6B40 0 CODE 0 text12 dist/default/debug\Example_14.2.X.debug.obj
+__ptext31 699E 0 CODE 0 text31 dist/default/debug\Example_14.2.X.debug.obj
+__Htext32 0 0 ABS 0 text32 dist/default/debug\Example_14.2.X.debug.obj
+__Htext13 0 0 ABS 0 text13 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext32 0 0 ABS 0 text32 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext13 0 0 ABS 0 text13 dist/default/debug\Example_14.2.X.debug.obj
+__ptext22 691A 0 CODE 0 text22 dist/default/debug\Example_14.2.X.debug.obj
+__ptext41 68DA 0 CODE 0 text41 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Delay10KTCYx 688C 0 CODE 0 text43 dist/default/debug\Example_14.2.X.debug.obj
+__CFG_CCP2MX$OFF 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Htext42 0 0 ABS 0 text42 dist/default/debug\Example_14.2.X.debug.obj
+__Htext23 0 0 ABS 0 text23 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext42 0 0 ABS 0 text42 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext23 0 0 ABS 0 text23 dist/default/debug\Example_14.2.X.debug.obj
+__ptext13 69EA 0 CODE 0 text13 dist/default/debug\Example_14.2.X.debug.obj
+__ptext32 6A44 0 CODE 0 text32 dist/default/debug\Example_14.2.X.debug.obj
+__Htext33 0 0 ABS 0 text33 dist/default/debug\Example_14.2.X.debug.obj
+__Htext14 0 0 ABS 0 text14 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext33 0 0 ABS 0 text33 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext14 0 0 ABS 0 text14 dist/default/debug\Example_14.2.X.debug.obj
+__ptext23 6828 0 CODE 0 text23 dist/default/debug\Example_14.2.X.debug.obj
+__ptext42 680C 0 CODE 0 text42 dist/default/debug\Example_14.2.X.debug.obj
+__HidataBANK1 0 0 ABS 0 idataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+__LidataBANK1 0 0 ABS 0 idataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+__Htext43 0 0 ABS 0 text43 dist/default/debug\Example_14.2.X.debug.obj
+__Htext24 0 0 ABS 0 text24 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Write_ARR 6C70 0 CODE 0 text9 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext43 0 0 ABS 0 text43 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext24 0 0 ABS 0 text24 dist/default/debug\Example_14.2.X.debug.obj
+__ptext14 693A 0 CODE 0 text14 dist/default/debug\Example_14.2.X.debug.obj
+__ptext33 6A16 0 CODE 0 text33 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Set_day 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__pidataBANK1 72C5 0 CODE 0 idataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+__Htext34 0 0 ABS 0 text34 dist/default/debug\Example_14.2.X.debug.obj
+__Htext15 0 0 ABS 0 text15 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext34 0 0 ABS 0 text34 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext15 0 0 ABS 0 text15 dist/default/debug\Example_14.2.X.debug.obj
+__ptext24 6AB2 0 CODE 0 text24 dist/default/debug\Example_14.2.X.debug.obj
+__ptext43 6876 0 CODE 0 text43 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Set_date 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Htext44 0 0 ABS 0 text44 dist/default/debug\Example_14.2.X.debug.obj
+__Htext25 0 0 ABS 0 text25 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext44 0 0 ABS 0 text44 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext25 0 0 ABS 0 text25 dist/default/debug\Example_14.2.X.debug.obj
+__ptext15 7A36 0 CODE 0 text15 dist/default/debug\Example_14.2.X.debug.obj
+__ptext34 6A7A 0 CODE 0 text34 dist/default/debug\Example_14.2.X.debug.obj
+__Htext35 0 0 ABS 0 text35 dist/default/debug\Example_14.2.X.debug.obj
+__Htext16 0 0 ABS 0 text16 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext35 0 0 ABS 0 text35 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext16 0 0 ABS 0 text16 dist/default/debug\Example_14.2.X.debug.obj
+__ptext25 74B8 0 CODE 0 text25 dist/default/debug\Example_14.2.X.debug.obj
+__ptext44 67FE 0 CODE 0 text44 dist/default/debug\Example_14.2.X.debug.obj
+Get_data@date AB 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Read_year 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Htext45 0 0 ABS 0 text45 dist/default/debug\Example_14.2.X.debug.obj
+__Htext26 0 0 ABS 0 text26 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext45 0 0 ABS 0 text45 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext26 0 0 ABS 0 text26 dist/default/debug\Example_14.2.X.debug.obj
+__ptext16 6FF2 0 CODE 0 text16 dist/default/debug\Example_14.2.X.debug.obj
+__ptext35 681A 0 CODE 0 text35 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Set_time 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Htext36 0 0 ABS 0 text36 dist/default/debug\Example_14.2.X.debug.obj
+__Htext17 0 0 ABS 0 text17 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext36 0 0 ABS 0 text36 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext17 0 0 ABS 0 text17 dist/default/debug\Example_14.2.X.debug.obj
+__ptext26 7094 0 CODE 0 text26 dist/default/debug\Example_14.2.X.debug.obj
+__ptext45 6852 0 CODE 0 text45 dist/default/debug\Example_14.2.X.debug.obj
+?_OpenI2C 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+_CloseI2C 67E4 0 CODE 0 text17 dist/default/debug\Example_14.2.X.debug.obj
+__Htext46 0 0 ABS 0 text46 dist/default/debug\Example_14.2.X.debug.obj
+__Htext27 0 0 ABS 0 text27 dist/default/debug\Example_14.2.X.debug.obj
+_WriteI2C 6AF6 0 CODE 0 text49 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext46 0 0 ABS 0 text46 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext27 0 0 ABS 0 text27 dist/default/debug\Example_14.2.X.debug.obj
+__ptext17 67E4 0 CODE 0 text17 dist/default/debug\Example_14.2.X.debug.obj
+__ptext36 6862 0 CODE 0 text36 dist/default/debug\Example_14.2.X.debug.obj
+__Htext37 0 0 ABS 0 text37 dist/default/debug\Example_14.2.X.debug.obj
+__Htext18 0 0 ABS 0 text18 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext37 0 0 ABS 0 text37 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext18 0 0 ABS 0 text18 dist/default/debug\Example_14.2.X.debug.obj
+__ptext27 69C4 0 CODE 0 text27 dist/default/debug\Example_14.2.X.debug.obj
+__ptext46 6E22 0 CODE 0 text46 dist/default/debug\Example_14.2.X.debug.obj
+Set_date@date 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__Htext47 0 0 ABS 0 text47 dist/default/debug\Example_14.2.X.debug.obj
+__Htext28 0 0 ABS 0 text28 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext47 0 0 ABS 0 text47 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext28 0 0 ABS 0 text28 dist/default/debug\Example_14.2.X.debug.obj
+__ptext18 6F54 0 CODE 0 text18 dist/default/debug\Example_14.2.X.debug.obj
+__ptext37 71FA 0 CODE 0 text37 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_ReadI2C 68BE 0 CODE 0 text48 dist/default/debug\Example_14.2.X.debug.obj
+?_WriteCmdXLCD 4 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__Htext38 0 0 ABS 0 text38 dist/default/debug\Example_14.2.X.debug.obj
+__Htext19 0 0 ABS 0 text19 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext38 0 0 ABS 0 text38 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext19 0 0 ABS 0 text19 dist/default/debug\Example_14.2.X.debug.obj
+Write_ARR@e 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__ptext28 78B8 0 CODE 0 text28 dist/default/debug\Example_14.2.X.debug.obj
+__ptext47 67F2 0 CODE 0 text47 dist/default/debug\Example_14.2.X.debug.obj
+__Htext48 0 0 ABS 0 text48 dist/default/debug\Example_14.2.X.debug.obj
+__Htext29 0 0 ABS 0 text29 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext48 0 0 ABS 0 text48 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext29 0 0 ABS 0 text29 dist/default/debug\Example_14.2.X.debug.obj
+__ptext19 68BE 0 CODE 0 text19 dist/default/debug\Example_14.2.X.debug.obj
+__ptext38 695A 0 CODE 0 text38 dist/default/debug\Example_14.2.X.debug.obj
+__CFG_BORV$3 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Htext39 0 0 ABS 0 text39 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext39 0 0 ABS 0 text39 dist/default/debug\Example_14.2.X.debug.obj
+__ptext29 6C70 0 CODE 0 text29 dist/default/debug\Example_14.2.X.debug.obj
+__ptext48 68A2 0 CODE 0 text48 dist/default/debug\Example_14.2.X.debug.obj
+__Htext49 0 0 ABS 0 text49 dist/default/debug\Example_14.2.X.debug.obj
+__Ltext49 0 0 ABS 0 text49 dist/default/debug\Example_14.2.X.debug.obj
+__ptext39 6CC4 0 CODE 0 text39 dist/default/debug\Example_14.2.X.debug.obj
+_ReadUSART 6A7A 0 CODE 0 text34 dist/default/debug\Example_14.2.X.debug.obj
+__ptext49 6AF6 0 CODE 0 text49 dist/default/debug\Example_14.2.X.debug.obj
+_OpenUSART 6E22 0 CODE 0 text46 dist/default/debug\Example_14.2.X.debug.obj
+__Hend_init 6 0 CODE 0 end_init dist/default/debug\Example_14.2.X.debug.obj
+__Lend_init 2 0 CODE 0 end_init dist/default/debug\Example_14.2.X.debug.obj
+_write_DAY 75F6 0 CODE 0 text8 dist/default/debug\Example_14.2.X.debug.obj
+_Write_ARR 6C1E 0 CODE 0 text9 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Write_time_XLCD 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__size_of_OpenI2C 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+Get_data@F229 1B9 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+_WriteDataXLCD 697C 0 CODE 0 text2 dist/default/debug\Example_14.2.X.debug.obj
+_OpenXLCD 71FA 0 CODE 0 text37 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_delay_ms 693A 0 CODE 0 text22 dist/default/debug\Example_14.2.X.debug.obj
+_BusyXLCD 695A 0 CODE 0 text38 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_ReadUSART 6AB2 0 CODE 0 text34 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_Read 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\tbi\AppData\Local\Temp\s3rg.obj
+OpenI2C@sync_mode 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__Hreset_vec 2 0 CODE 0 reset_vec dist/default/debug\Example_14.2.X.debug.obj
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/debug\Example_14.2.X.debug.obj
+__HidataBANK2 0 0 ABS 0 idataBANK2 dist/default/debug\Example_14.2.X.debug.obj
+__LidataBANK2 0 0 ABS 0 idataBANK2 dist/default/debug\Example_14.2.X.debug.obj
+__pidataBANK2 6E7E 0 CODE 0 idataBANK2 dist/default/debug\Example_14.2.X.debug.obj
+strcmp@s1 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+write_DAY@F264 1D7 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+strcmp@s2 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__end_of_BCD_to_DEC 68A2 0 CODE 0 text30 dist/default/debug\Example_14.2.X.debug.obj
+Get_data@F239 1EC 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Write_time 7094 0 CODE 0 text16 dist/default/debug\Example_14.2.X.debug.obj
+Read_string@len 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__size_of_OpenXLCD 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__accesstop 60 0 ABS 0 - C:\Users\tbi\AppData\Local\Temp\s3rg.obj
+?_UsartConfig 4 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Get_data@str2 61 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_UsartConfig 6862 0 CODE 0 text45 dist/default/debug\Example_14.2.X.debug.obj
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/debug\Example_14.2.X.debug.obj
+__size_of_WriteCmdXLCD 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/debug\Example_14.2.X.debug.obj
+__end_of_WriteI2C 6B40 0 CODE 0 text49 dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Write_time_ 6FF2 0 CODE 0 text18 dist/default/debug\Example_14.2.X.debug.obj
+write_DAY@day_2 A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+intlevel0 0 0 CODE 0 text C:\Users\tbi\AppData\Local\Temp\s3rg.obj
+UsartConfig@config1 4 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+UsartConfig@config2 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+intlevel1 0 0 CODE 0 text C:\Users\tbi\AppData\Local\Temp\s3rg.obj
+__end_of_Read_char 6A44 0 CODE 0 text33 dist/default/debug\Example_14.2.X.debug.obj
+?_Read_hour 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+intlevel2 0 0 CODE 0 text C:\Users\tbi\AppData\Local\Temp\s3rg.obj
+intlevel3 0 0 CODE 0 text C:\Users\tbi\AppData\Local\Temp\s3rg.obj
+__end_of_Clear_array 69EA 0 CODE 0 text27 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_BusyXLCD 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+?_Write_str 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__size_of_WriteI2C 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+write_DAY@day_5 16 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__size_of_SetDDRamAddr 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Read 6A16 0 CODE 0 text13 dist/default/debug\Example_14.2.X.debug.obj
+main@str7 AF 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+Read_time@mode 2E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+main@str8 D2 0 BANK0 1 cstackBANK0 dist/default/debug\Example_14.2.X.debug.obj
+BCD_format@a 4 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+start_initialization 6D1A 0 CODE 0 cinit dist/default/debug\Example_14.2.X.debug.obj
+?_Write_I2C 22 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+DelayFor18TCY@i 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+ReadBUF@c 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__size_of_DelayFor18TCY 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+_UsartConfig 6852 0 CODE 0 text45 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_BCD_to_DEC 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__CFG_IESO$OFF 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+Set_time@str3 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Set_time@F200 1A7 0 BANK1 1 dataBANK1 dist/default/debug\Example_14.2.X.debug.obj
+__size_of_UsartConfig 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+Write_time_@s 25 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Read_date@c 29 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__initialization 6D1A 0 CODE 0 cinit dist/default/debug\Example_14.2.X.debug.obj
+Read_sec@c 29 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Delay10TCYx@unit 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Write_time@date 26 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Read_month@c 29 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Read_char@c 4 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__CFG_LPT1OSC$OFF 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__end_of_Read_min 6BD4 0 CODE 0 text11 dist/default/debug\Example_14.2.X.debug.obj
+__activetblptr 2 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__size_of_ReadBUF 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+Read_year@c 29 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Read_sec@e 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__end_of_OpenI2C 68DA 0 CODE 0 text19 dist/default/debug\Example_14.2.X.debug.obj
+Read_date@e 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+?_Write_time 25 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Set_time@F198 243 0 BANK2 1 dataBANK2 dist/default/debug\Example_14.2.X.debug.obj
+__CFG_WDT$OFF 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+__size_of_strcmp 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+Write_time_@h 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Read_min@c 29 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Read_hour@mode 29 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+Delay1KTCYx@unit 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Example_14.2.X.debug.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/debug\Example_14.2.X.debug.obj
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta> <class name>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+reset_vec 0 0 0 6 1 CODE
+config 0 300000 300000 E 1 CONFIG
+idloc 0 200000 200000 8 1 IDLOC
+cstackCOMRAM 1 1 1 5F 1 COMRAM
+cstackBANK0 1 60 60 A0 1 BANK0
+dataBANK1 1 100 100 F5 1 BANK1
+dataBANK2 1 200 200 68 1 BANK2
+text15 0 7A36 7A36 2CA 1 CODE
+text28 0 78B8 78B8 17E 1 CODE
+text0 0 774C 774C 16C 1 CODE
+text8 0 75F6 75F6 156 1 CODE
+text25 0 74B8 74B8 13E 1 CODE
+text3 0 73BA 73BA FE 1 CODE
+idataBANK1 0 72C5 72C5 F5 1 CODE
+text37 0 71FA 71FA CA 1 CODE
+text10 0 7140 7140 BA 1 CODE
+text26 0 7094 7094 AC 1 CODE
+text16 0 6FF2 6FF2 A2 1 CODE
+text18 0 6F54 6F54 9E 1 CODE
+text1 0 6EE6 6EE6 6E 1 CODE
+idataBANK2 0 6E7E 6E7E 68 1 CODE
+text46 0 6E22 6E22 5C 1 CODE
+text6 0 6DC8 6DC8 5A 1 CODE
+text4 0 6D70 6D70 58 1 CODE
+cinit 0 6D1A 6D1A 56 1 CODE
+text39 0 6CC4 6CC4 56 1 CODE
+text29 0 6C70 6C70 54 1 CODE
+text9 0 6C1E 6C1E 52 1 CODE
+text5 0 6BD4 6BD4 4A 1 CODE
+text11 0 6B8A 6B8A 4A 1 CODE
+text12 0 6B40 6B40 4A 1 CODE
+text49 0 6AF6 6AF6 4A 1 CODE
+text24 0 6AB2 6AB2 44 1 CODE
+text34 0 6A7A 6A7A 38 1 CODE
+text32 0 6A44 6A44 36 1 CODE
+text33 0 6A16 6A16 2E 1 CODE
+text13 0 69EA 69EA 2C 1 CODE
+text27 0 69C4 69C4 26 1 CODE
+text31 0 699E 699E 26 1 CODE
+text2 0 697C 697C 22 1 CODE
+text38 0 695A 695A 22 1 CODE
+text14 0 693A 693A 20 1 CODE
+text22 0 691A 691A 20 1 CODE
+text40 0 68FA 68FA 20 1 CODE
+text41 0 68DA 68DA 20 1 CODE
+text19 0 68BE 68BE 1C 1 CODE
+text48 0 68A2 68A2 1C 1 CODE
+text30 0 688C 688C 16 1 CODE
+text43 0 6876 6876 16 1 CODE
+text36 0 6862 6862 14 1 CODE
+text45 0 6852 6852 10 1 CODE
+text7 0 6844 6844 E 1 CODE
+text20 0 6836 6836 E 1 CODE
+text23 0 6828 6828 E 1 CODE
+text35 0 681A 681A E 1 CODE
+text42 0 680C 680C E 1 CODE
+text44 0 67FE 67FE E 1 CODE
+text47 0 67F2 67F2 C 1 CODE
+text21 0 67E8 67E8 A 1 CODE
+text17 0 67E4 67E4 4 1 CODE

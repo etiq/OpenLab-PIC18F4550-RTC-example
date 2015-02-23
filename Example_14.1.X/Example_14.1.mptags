@@ -1,0 +1,161 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ARRAY_H	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\array.h	14;"	d	line:14
+BCD_format	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	33;"	f	line:33	signature:(unsigned char *str)
+BCD_format	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	34;"	p	line:34	signature:(unsigned char *str)
+BCD_to_DEC	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	44;"	f	line:44	signature:(unsigned char c)
+BCD_to_DEC	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	44;"	p	line:44	signature:(unsigned char c)
+CONFIG_H	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\config.h	13;"	d	line:13
+Clear_array	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	52;"	f	line:52	signature:(unsigned char *e, unsigned char n)
+Clear_array	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	54;"	p	line:54	signature:(unsigned char *e, unsigned char n)
+DEC_to_BCD	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	25;"	f	line:25	signature:(unsigned char t)
+DEC_to_BCD	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	24;"	p	line:24	signature:(unsigned char t)
+DELAY__H	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.h	13;"	d	line:13
+DelayFor18TCY	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.c	45;"	f	line:45	signature:( void )
+DelayFor18TCY	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.h	44;"	p	line:44	signature:( void )
+DelayPORXLCD	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.c	53;"	f	line:53	signature:(void)
+DelayXLCD	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.c	61;"	f	line:61	signature:(void)
+DelayXLCD	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.h	45;"	p	line:45	signature:(void)
+DelayXLCD	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.h	46;"	p	line:46	signature:(void)
+Delay_s	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.c	36;"	f	line:36	signature:(unsigned char t)
+Delay_s	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.h	37;"	p	line:37	signature:(unsigned char t)
+Delay_s_	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.c	69;"	f	line:69	signature:(void)
+Fosc::20000000	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\main.c	64;"	d	line:64	file:
+Get_data	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	169;"	f	line:169	signature:(void)
+Get_data	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	94;"	p	line:94	signature:(void)
+I2C_1_H	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.h	12;"	d	line:12
+Read	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.c	46;"	f	line:46	signature:(void)
+Read	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.h	15;"	p	line:15	signature:(void)
+ReadBUF	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.c	28;"	f	line:28	signature:(void)
+ReadBUF	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.h	68;"	p	line:68	signature:(void)
+Read_From_Addr	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.c	128;"	f	line:128	signature:(unsigned char addr)
+Read_From_Addr	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.h	48;"	p	line:48	signature:(unsigned char addr)
+Read_char	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\uart.c	43;"	f	line:43	signature:(void)
+Read_char	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\uart.h	48;"	p	line:48	signature:(void)
+Read_date	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	338;"	f	line:338	signature:(unsigned char * e)
+Read_date	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	164;"	p	line:164	signature:(unsigned char * e)
+Read_day	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	331;"	f	line:331	signature:(void)
+Read_day	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	154;"	p	line:154	signature:(void)
+Read_hour	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	251;"	f	line:251	signature:(unsigned char * e, unsigned char mode)
+Read_hour	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	124;"	p	line:124	signature:(unsigned char * e, unsigned char mode)
+Read_min	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	237;"	f	line:237	signature:(unsigned char * e)
+Read_min	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	114;"	p	line:114	signature:(unsigned char * e)
+Read_month	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	354;"	f	line:354	signature:(unsigned char *e)
+Read_month	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	175;"	p	line:175	signature:(unsigned char *e)
+Read_sec	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	223;"	f	line:223	signature:(unsigned char * e)
+Read_sec	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	104;"	p	line:104	signature:(unsigned char * e)
+Read_string	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\uart.c	54;"	f	line:54	signature:(unsigned char *buffer, unsigned char len)
+Read_string	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\uart.h	60;"	p	line:60	signature:(unsigned char *str, unsigned char n)
+Read_time	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.c	100;"	f	line:100	signature:(unsigned char mode)
+Read_time	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.h	37;"	p	line:37	signature:(unsigned char mode)
+Read_year	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	369;"	f	line:369	signature:(unsigned char *e)
+Read_year	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	185;"	p	line:185	signature:(unsigned char *e)
+Reload::((20000000/100000)/4-1);	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\main.c	67;"	d	line:67	file:
+Set_date	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	141;"	f	line:141	signature:(unsigned char* date, unsigned char* month, unsigned char* year)
+Set_date	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	84;"	p	line:84	signature:(unsigned char* date, unsigned char* month, unsigned char* year)
+Set_day	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	115;"	f	line:115	signature:(void)
+Set_day	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	75;"	p	line:75	signature:(void)
+Set_time	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	69;"	f	line:69	signature:(unsigned char* sec, unsigned char* min, unsigned char* hour, unsigned char mode)
+Set_time	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	65;"	p	line:65	signature:(unsigned char* sec, unsigned char* min, unsigned char* hour, unsigned char mode)
+TIME_H	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	12;"	d	line:12
+UART_H	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\uart.h	11;"	d	line:11
+UsartConfig	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\uart.c	20;"	f	line:20	signature:(unsigned char config1, unsigned char config2)
+UsartConfig	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\uart.h	15;"	p	line:15	signature:(unsigned char config1, unsigned char config2)
+Write	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\uart.c	25;"	f	line:25	signature:(char data)
+Write	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\uart.h	26;"	p	line:26	signature:(char data)
+Write_ARR	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	284;"	f	line:284	signature:(unsigned char *c, unsigned char * e)
+Write_ARR	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	134;"	p	line:134	signature:(unsigned char *c, unsigned char * e)
+Write_I2C	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.c	38;"	f	line:38	signature:(unsigned char c)
+Write_I2C	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.h	79;"	p	line:79	signature:(unsigned char c)
+Write_str	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\uart.c	31;"	f	line:31	signature:(unsigned char *c)
+Write_str	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\uart.h	37;"	p	line:37	signature:(unsigned char *c)
+Write_time	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.c	79;"	f	line:79	signature:(unsigned char day, unsigned char date, unsigned char month, unsigned char year)
+Write_time	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.h	26;"	p	line:26	signature:(unsigned char day, unsigned char date, unsigned char month, unsigned char year)
+Write_time_	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.c	57;"	f	line:57	signature:(unsigned char s, unsigned char m, unsigned char h)
+Write_time_	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.h	87;"	p	line:87	signature:(unsigned char s, unsigned char m, unsigned char h)
+Write_to_Addr	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.c	146;"	f	line:146	signature:(unsigned char data, unsigned char addr)
+Write_to_Addr	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.h	58;"	p	line:58	signature:(unsigned char data, unsigned char addr)
+a	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	35;"	l	line:35
+baud::9600	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\main.c	65;"	d	line:65	file:
+c	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.c	130;"	l	line:130
+c	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.c	30;"	l	line:30
+c	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\i2c_1.c	48;"	l	line:48
+c	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\main.c	76;"	l	line:76
+c	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	225;"	l	line:225
+c	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	239;"	l	line:239
+c	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	253;"	l	line:253
+c	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	340;"	l	line:340
+c	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	356;"	l	line:356
+c	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	371;"	l	line:371
+c	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\uart.c	45;"	l	line:45
+config1	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\main.c	76;"	l	line:76
+config2::((Fosc/baud/64)-1)	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\main.c	66;"	d	line:66	file:
+data	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\uart.c	57;"	l	line:57
+date	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	171;"	l	line:171
+day	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	120;"	l	line:120
+day	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	171;"	l	line:171
+day_1	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	301;"	l	line:301
+day_2	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	302;"	l	line:302
+day_3	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	303;"	l	line:303
+day_4	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	304;"	l	line:304
+day_5	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	305;"	l	line:305
+day_6	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	306;"	l	line:306
+day_7	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	307;"	l	line:307
+delay_ms	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.c	17;"	f	line:17	signature:(unsigned char t)
+delay_ms	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.h	16;"	p	line:16	signature:(unsigned char t)
+delay_us	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.c	27;"	f	line:27	signature:(unsigned char t)
+delay_us	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.h	27;"	p	line:27	signature:(unsigned char t)
+error	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	117;"	l	line:117
+error	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	144;"	l	line:144
+error	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	174;"	l	line:174
+error	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	73;"	l	line:73
+h	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	171;"	l	line:171
+h	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	71;"	l	line:71
+i	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.c	19;"	l	line:19
+i	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.c	29;"	l	line:29
+i	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.c	38;"	l	line:38
+i	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.c	47;"	l	line:47
+i	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.c	63;"	l	line:63
+i	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	253;"	l	line:253
+i	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	54;"	l	line:54
+i	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\uart.c	56;"	l	line:56
+j	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\delay.c	38;"	l	line:38
+m	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	171;"	l	line:171
+m	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	71;"	l	line:71
+main	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\main.c	71;"	f	line:71	signature:(void)
+main	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	14;"	p	line:14	signature:(void)
+mode	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\main.c	73;"	l	line:73
+mode	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	171;"	l	line:171
+month	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	171;"	l	line:171
+s	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	171;"	l	line:171
+s	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	71;"	l	line:71
+s_1	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	175;"	l	line:175
+s_2	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	176;"	l	line:176
+s_3	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	177;"	l	line:177
+s_4	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	178;"	l	line:178
+s_5	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	179;"	l	line:179
+s_6	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	180;"	l	line:180
+str	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\array.c	10;"	v	line:10
+str2	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	172;"	l	line:172
+str3	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	72;"	l	line:72
+str5	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	118;"	l	line:118
+str6	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	144;"	l	line:144
+str7	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\main.c	74;"	l	line:74
+str8	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\main.c	75;"	l	line:75
+str8	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	173;"	l	line:173
+time	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\array.c	11;"	v	line:11
+write_DAY	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	299;"	f	line:299	signature:(unsigned char day)
+write_DAY	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.h	144;"	p	line:144	signature:(unsigned char day)
+x	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	143;"	l	line:143
+x	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	71;"	l	line:71
+y	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	143;"	l	line:143
+y	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	71;"	l	line:71
+year	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	171;"	l	line:171
+z	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	143;"	l	line:143
+z	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.1.X\time.c	71;"	l	line:71

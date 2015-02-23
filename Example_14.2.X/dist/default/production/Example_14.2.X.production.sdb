@@ -1,0 +1,1141 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"31 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\abtofl.c
+[v ___abtofl __abtofl `(d  1 e 3 0 ]
+"33 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"36 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\altofl.c
+[v ___altofl __altofl `(d  1 e 3 0 ]
+"42 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"37 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\attofl.c
+[v ___attofl __attofl `(d  1 e 3 0 ]
+"37 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"31 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\awtofl.c
+[v ___awtofl __awtofl `(d  1 e 3 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"63 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\double.c
+[v ___flpack __flpack `(d  1 e 3 0 ]
+"88 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\fladd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"49 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\fldiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\flmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\flneg.c
+[v ___flneg __flneg `(d  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\flsub.c
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"49 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lbtofl.c
+[v ___lbtofl __lbtofl `(d  1 e 3 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"30 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lltofl.c
+[v ___lltofl __lltofl `(d  1 e 3 0 ]
+"35 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"30 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lttofl.c
+[v ___lttofl __lttofl `(d  1 e 3 0 ]
+"30 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lwtofl.c
+[v ___lwtofl __lwtofl `(d  1 e 3 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"33 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\asfladd.c
+[v ___asfladd __asfladd `(d  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\asfldiv.c
+[v ___asfldiv __asfldiv `(d  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\asflmul.c
+[v ___asflmul __asflmul `(d  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\asflsub.c
+[v ___asflsub __asflsub `(d  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\asftadd.c
+[v ___asftadd __asftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\asftdiv.c
+[v ___asftdiv __asftdiv `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\asftmul.c
+[v ___asftmul __asftmul `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\asftsub.c
+[v ___asftsub __asftsub `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\aslmul.c
+[v ___aslmul __aslmul `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\d10ktcyx.c
+[v _Delay10KTCYx Delay10KTCYx `(v  1 e 0 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\d10tcyx.c
+[v _Delay10TCYx Delay10TCYx `(v  1 e 0 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\d1ktcyx.c
+[v _Delay1KTCYx Delay1KTCYx `(v  1 e 0 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\i2c\i2c_clos.c
+[v _CloseI2C CloseI2C `(v  1 e 0 0 ]
+"24 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\i2c\i2c_idle.c
+[v _IdleI2C IdleI2C `(v  1 e 0 0 ]
+"14 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\i2c\i2c_open.c
+[v _OpenI2C OpenI2C `(v  1 e 0 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\i2c\i2c_read.c
+[v _ReadI2C ReadI2C `(uc  1 e 1 0 ]
+"12 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\i2c\i2c_writ.c
+[v _WriteI2C WriteI2C `(c  1 e 1 0 ]
+"73 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\uopen.c
+[v _OpenUSART OpenUSART `(v  1 e 0 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\uread.c
+[v _ReadUSART ReadUSART `(uc  1 e 1 0 ]
+"13 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\uwrite.c
+[v _WriteUSART WriteUSART `(v  1 e 0 0 ]
+"13 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\XLCD\setddram.c
+[v _SetDDRamAddr SetDDRamAddr `(v  1 e 0 0 ]
+"17 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c
+[v _delay_ms delay_ms `(v  1 e 0 0 ]
+"27
+[v _delay_us delay_us `(v  1 e 0 0 ]
+"36
+[v _Delay_s Delay_s `(v  1 e 0 0 ]
+"45
+[v _DelayFor18TCY DelayFor18TCY `(v  1 e 0 0 ]
+"53
+[v _DelayPORXLCD DelayPORXLCD `(v  1 e 0 0 ]
+"61
+[v _DelayXLCD DelayXLCD `(v  1 e 0 0 ]
+"69
+[v _Delay_s_ Delay_s_ `(v  1 e 0 0 ]
+"28 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c
+[v _ReadBUF ReadBUF `(v  1 e 0 0 ]
+"38
+[v _Write_I2C Write_I2C `(v  1 e 0 0 ]
+"46
+[v _Read Read `(uc  1 e 1 0 ]
+"57
+[v _Write_time_ Write_time_ `(v  1 e 0 0 ]
+"79
+[v _Write_time Write_time `(v  1 e 0 0 ]
+"100
+[v _Read_time Read_time `(v  1 e 0 0 ]
+"128
+[v _Read_From_Addr Read_From_Addr `(uc  1 e 1 0 ]
+"146
+[v _Write_to_Addr Write_to_Addr `(v  1 e 0 0 ]
+"74 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c
+[v _main main `(v  1 e 0 0 ]
+"25 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c
+[v _DEC_to_BCD DEC_to_BCD `(uc  1 e 1 0 ]
+"33
+[v _BCD_format BCD_format `(uc  1 e 1 0 ]
+"44
+[v _BCD_to_DEC BCD_to_DEC `(uc  1 e 1 0 ]
+"52
+[v _Clear_array Clear_array `(v  1 e 0 0 ]
+"69
+[v _Set_time Set_time `(v  1 e 0 0 ]
+"115
+[v _Set_day Set_day `(uc  1 e 1 0 ]
+"141
+[v _Set_date Set_date `(v  1 e 0 0 ]
+"169
+[v _Get_data Get_data `(uc  1 e 1 0 ]
+"223
+[v _Read_sec Read_sec `(v  1 e 0 0 ]
+"237
+[v _Read_min Read_min `(v  1 e 0 0 ]
+"251
+[v _Read_hour Read_hour `(v  1 e 0 0 ]
+"284
+[v _Write_ARR Write_ARR `(v  1 e 0 0 ]
+"299
+[v _write_DAY write_DAY `(v  1 e 0 0 ]
+"331
+[v _Read_day Read_day `(v  1 e 0 0 ]
+"338
+[v _Read_date Read_date `(v  1 e 0 0 ]
+"354
+[v _Read_month Read_month `(v  1 e 0 0 ]
+"369
+[v _Read_year Read_year `(v  1 e 0 0 ]
+"21 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c
+[v _UsartConfig UsartConfig `(v  1 e 0 0 ]
+"26
+[v _Write Write `(v  1 e 0 0 ]
+"32
+[v _Write_str Write_str `(v  1 e 0 0 ]
+"44
+[v _Read_char Read_char `(uc  1 e 1 0 ]
+"55
+[v _Read_string Read_string `(v  1 e 0 0 ]
+"22 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c
+[v _BusyXLCD BusyXLCD `(uc  1 e 1 0 ]
+"44
+[v _WriteCmdXLCD WriteCmdXLCD `(v  1 e 0 0 ]
+"62
+[v _WriteDataXLCD WriteDataXLCD `(v  1 e 0 0 ]
+"80
+[v _OpenXLCD OpenXLCD `(v  1 e 0 0 ]
+"124
+[v _Write_time_XLCD Write_time_XLCD `(v  1 e 0 0 ]
+"10 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\array.c
+[v _str str `[11]uc  1 e 11 0 ]
+"11
+[v _time time `[2]uc  1 e 2 0 ]
+"2725 C:\Program Files (x86)\Microchip\xc8\v1.32\include\pic18f4550.h
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"2987
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S359 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+]
+"3409
+[s S367 . 1 `uc 1 LA0 1 0 :1:0 
+]
+[s S369 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+]
+[s S372 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LA2 1 0 :1:2 
+]
+[s S375 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LA3 1 0 :1:3 
+]
+[s S378 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LA4 1 0 :1:4 
+]
+[s S381 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LA5 1 0 :1:5 
+]
+[s S384 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LA6 1 0 :1:6 
+]
+[s S387 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LA7 1 0 :1:7 
+]
+[s S390 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LATA7 1 0 :1:7 
+]
+[u S393 . 1 `S359 1 . 1 0 `S367 1 . 1 0 `S369 1 . 1 0 `S372 1 . 1 0 `S375 1 . 1 0 `S378 1 . 1 0 `S381 1 . 1 0 `S384 1 . 1 0 `S387 1 . 1 0 `S390 1 . 1 0 ]
+[v _LATAbits LATAbits `VES393  1 e 1 @3977 ]
+[s S1045 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"3541
+[s S1054 . 1 `uc 1 LB0 1 0 :1:0 
+]
+[s S1056 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+]
+[s S1059 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LB2 1 0 :1:2 
+]
+[s S1062 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LB3 1 0 :1:3 
+]
+[s S1065 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LB4 1 0 :1:4 
+]
+[s S1068 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LB5 1 0 :1:5 
+]
+[s S1071 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LB6 1 0 :1:6 
+]
+[s S1074 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S1077 . 1 `S1045 1 . 1 0 `S1054 1 . 1 0 `S1056 1 . 1 0 `S1059 1 . 1 0 `S1062 1 . 1 0 `S1065 1 . 1 0 `S1068 1 . 1 0 `S1071 1 . 1 0 `S1074 1 . 1 0 ]
+[v _LATBbits LATBbits `VES1077  1 e 1 @3978 ]
+[s S442 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+]
+"4004
+[s S450 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+[u S458 . 1 `S442 1 . 1 0 `S450 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES458  1 e 1 @3986 ]
+"4171
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S1315 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"4203
+[s S1324 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S1333 . 1 `S1315 1 . 1 0 `S1324 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES1333  1 e 1 @3987 ]
+[s S858 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"4424
+[s S865 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[s S872 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 TRISC3 1 0 :1:3 
+]
+[u S875 . 1 `S858 1 . 1 0 `S865 1 . 1 0 `S872 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES875  1 e 1 @3988 ]
+"4563
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S607 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 SPPIF 1 0 :1:7 
+]
+"4972
+[s S616 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[s S619 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[s S622 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+]
+[u S625 . 1 `S607 1 . 1 0 `S616 1 . 1 0 `S619 1 . 1 0 `S622 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES625  1 e 1 @3997 ]
+"5060
+[v _PIR1bits PIR1bits `VES625  1 e 1 @3998 ]
+"5500
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+[s S736 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"5541
+[s S745 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S748 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S751 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S754 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S757 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S759 . 1 `S736 1 . 1 0 `S745 1 . 1 0 `S748 1 . 1 0 `S751 1 . 1 0 `S754 1 . 1 0 `S757 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES759  1 e 1 @4011 ]
+"5709
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+[s S520 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"5769
+[s S529 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 BRGH1 1 0 :1:2 
+]
+[s S532 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S535 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SENDB1 1 0 :1:3 
+]
+[s S538 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SYNC1 1 0 :1:4 
+]
+[s S541 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+]
+[s S544 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX91 1 0 :1:6 
+]
+[s S547 . 1 `uc 1 TX9D1 1 0 :1:0 
+]
+[s S549 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 TXEN1 1 0 :1:5 
+]
+[s S552 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S555 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S557 . 1 `S520 1 . 1 0 `S529 1 . 1 0 `S532 1 . 1 0 `S535 1 . 1 0 `S538 1 . 1 0 `S541 1 . 1 0 `S544 1 . 1 0 `S547 1 . 1 0 `S549 1 . 1 0 `S552 1 . 1 0 `S555 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES557  1 e 1 @4012 ]
+"6006
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"6017
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"6028
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"6039
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+"7401
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+[s S268 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"7418
+[u S277 . 1 `S268 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES277  1 e 1 @4037 ]
+"7462
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+[s S1487 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"7482
+[s S1493 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S1498 . 1 `S1487 1 . 1 0 `S1493 1 . 1 0 ]
+[v _SSPCON1bits SSPCON1bits `VES1498  1 e 1 @4038 ]
+"7531
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+[s S1134 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"7633
+[s S1137 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S1140 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S1155 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S1160 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S1166 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S1171 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S1174 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S1177 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S1182 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S1187 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S1192 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 DA 1 0 :1:5 
+]
+[s S1195 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+]
+[s S1198 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 START 1 0 :1:3 
+]
+[s S1201 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 STOP 1 0 :1:4 
+]
+[s S1204 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+]
+[s S1207 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S1210 . 1 `S1134 1 . 1 0 `S1137 1 . 1 0 `S1140 1 . 1 0 `S1134 1 . 1 0 `S1137 1 . 1 0 `S1155 1 . 1 0 `S1160 1 . 1 0 `S1166 1 . 1 0 `S1171 1 . 1 0 `S1174 1 . 1 0 `S1177 1 . 1 0 `S1182 1 . 1 0 `S1187 1 . 1 0 `S1192 1 . 1 0 `S1195 1 . 1 0 `S1198 1 . 1 0 `S1201 1 . 1 0 `S1204 1 . 1 0 `S1207 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES1210  1 e 1 @4039 ]
+"7797
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"7803
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+[s S924 . 1 `uc 1 RX_NINE 1 0 :1:0 
+`uc 1 TX_NINE 1 0 :1:1 
+`uc 1 FRAME_ERROR 1 0 :1:2 
+`uc 1 OVERRUN_ERROR 1 0 :1:3 
+`uc 1 fill 1 0 :4:4 
+]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\udefs.c
+[u S930 USART 1 `uc 1 val 1 0 `S924 1 . 1 0 ]
+[v _USART_Status USART_Status `S930  1 e 1 0 ]
+"74 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"77
+[v main@str7 str7 `[35]uc  1 a 35 77 ]
+"78
+[v main@str8 str8 `[29]uc  1 a 29 112 ]
+"79
+[v main@c c `uc  1 a 1 143 ]
+[v main@config1 config1 `uc  1 a 1 142 ]
+"76
+[v main@mode mode `uc  1 a 1 141 ]
+[v main@F4700 F4700 `[35]uc  1 s 35 F4700 ]
+"77
+[v main@F4702 F4702 `[29]uc  1 s 29 F4702 ]
+"105
+} 0
+"124 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c
+[v _Write_time_XLCD Write_time_XLCD `(v  1 e 0 0 ]
+{
+"125
+[v Write_time_XLCD@i i `uc  1 a 1 5 ]
+"124
+[v Write_time_XLCD@str str `*.39uc  1 p 2 3 ]
+"142
+} 0
+"62
+[v _WriteDataXLCD WriteDataXLCD `(v  1 e 0 0 ]
+{
+[v WriteDataXLCD@data data `uc  1 a 1 wreg ]
+[v WriteDataXLCD@data data `uc  1 a 1 wreg ]
+"65
+[v WriteDataXLCD@data data `uc  1 a 1 2 ]
+"78
+} 0
+"21 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c
+[v _UsartConfig UsartConfig `(v  1 e 0 0 ]
+{
+[v UsartConfig@config1 config1 `uc  1 a 1 wreg ]
+[v UsartConfig@config1 config1 `uc  1 a 1 wreg ]
+[v UsartConfig@config2 config2 `uc  1 p 1 6 ]
+"23
+[v UsartConfig@config1 config1 `uc  1 a 1 7 ]
+"24
+} 0
+"73 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\uopen.c
+[v _OpenUSART OpenUSART `(v  1 e 0 0 ]
+{
+[v OpenUSART@config config `uc  1 a 1 wreg ]
+[v OpenUSART@config config `uc  1 a 1 wreg ]
+[v OpenUSART@spbrg spbrg `ui  1 p 2 0 ]
+"75
+[v OpenUSART@config config `uc  1 a 1 5 ]
+"143
+} 0
+"100 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c
+[v _Read_time Read_time `(v  1 e 0 0 ]
+{
+[v Read_time@mode mode `uc  1 a 1 wreg ]
+[v Read_time@mode mode `uc  1 a 1 wreg ]
+"102
+[v Read_time@mode mode `uc  1 a 1 33 ]
+"123
+} 0
+"27 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c
+[v _delay_us delay_us `(v  1 e 0 0 ]
+{
+[v delay_us@t t `uc  1 a 1 wreg ]
+"29
+[v delay_us@i i `uc  1 a 1 2 ]
+"27
+[v delay_us@t t `uc  1 a 1 wreg ]
+"30
+[v delay_us@t t `uc  1 a 1 1 ]
+"35
+} 0
+"369 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c
+[v _Read_year Read_year `(v  1 e 0 0 ]
+{
+"371
+[v Read_year@c c `uc  1 a 1 7 ]
+"369
+[v Read_year@e e `*.39uc  1 p 2 5 ]
+"381
+} 0
+"223
+[v _Read_sec Read_sec `(v  1 e 0 0 ]
+{
+"225
+[v Read_sec@c c `uc  1 a 1 7 ]
+"223
+[v Read_sec@e e `*.39uc  1 p 2 5 ]
+"233
+} 0
+"354
+[v _Read_month Read_month `(v  1 e 0 0 ]
+{
+"356
+[v Read_month@c c `uc  1 a 1 7 ]
+"354
+[v Read_month@e e `*.39uc  1 p 2 5 ]
+"364
+} 0
+"237
+[v _Read_min Read_min `(v  1 e 0 0 ]
+{
+"239
+[v Read_min@c c `uc  1 a 1 7 ]
+"237
+[v Read_min@e e `*.39uc  1 p 2 5 ]
+"247
+} 0
+"251
+[v _Read_hour Read_hour `(v  1 e 0 0 ]
+{
+"253
+[v Read_hour@c c `uc  1 a 1 11 ]
+[v Read_hour@i i `uc  1 a 1 10 ]
+"251
+[v Read_hour@e e `*.39uc  1 p 2 5 ]
+[v Read_hour@mode mode `uc  1 p 1 7 ]
+"277
+} 0
+"331
+[v _Read_day Read_day `(v  1 e 0 0 ]
+{
+"334
+} 0
+"299
+[v _write_DAY write_DAY `(v  1 e 0 0 ]
+{
+[v write_DAY@day day `uc  1 a 1 wreg ]
+"307
+[v write_DAY@day_7 day_7 `[4]uc  1 a 4 28 ]
+"306
+[v write_DAY@day_6 day_6 `[4]uc  1 a 4 24 ]
+"305
+[v write_DAY@day_5 day_5 `[4]uc  1 a 4 20 ]
+"304
+[v write_DAY@day_4 day_4 `[4]uc  1 a 4 16 ]
+"303
+[v write_DAY@day_3 day_3 `[4]uc  1 a 4 12 ]
+"302
+[v write_DAY@day_2 day_2 `[4]uc  1 a 4 8 ]
+"301
+[v write_DAY@day_1 day_1 `[4]uc  1 a 4 4 ]
+"299
+[v write_DAY@day day `uc  1 a 1 wreg ]
+"300
+[v write_DAY@F256 F256 `[4]uc  1 s 4 F256 ]
+"301
+[v write_DAY@F258 F258 `[4]uc  1 s 4 F258 ]
+"302
+[v write_DAY@F260 F260 `[4]uc  1 s 4 F260 ]
+"303
+[v write_DAY@F262 F262 `[4]uc  1 s 4 F262 ]
+"304
+[v write_DAY@F264 F264 `[4]uc  1 s 4 F264 ]
+"305
+[v write_DAY@F266 F266 `[4]uc  1 s 4 F266 ]
+"306
+[v write_DAY@F268 F268 `[4]uc  1 s 4 F268 ]
+"301
+[v write_DAY@day day `uc  1 a 1 32 ]
+"326
+} 0
+"284
+[v _Write_ARR Write_ARR `(v  1 e 0 0 ]
+{
+[v Write_ARR@c c `*.39uc  1 p 2 0 ]
+[v Write_ARR@e e `*.39uc  1 p 2 2 ]
+"295
+} 0
+"338
+[v _Read_date Read_date `(v  1 e 0 0 ]
+{
+"340
+[v Read_date@c c `uc  1 a 1 7 ]
+"338
+[v Read_date@e e `*.39uc  1 p 2 5 ]
+"350
+} 0
+"46 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c
+[v _Read Read `(uc  1 e 1 0 ]
+{
+"48
+[v Read@c c `uc  1 a 1 4 ]
+"55
+} 0
+"11 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\i2c\i2c_read.c
+[v _ReadI2C ReadI2C `(uc  1 e 1 0 ]
+{
+"17
+} 0
+"44 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c
+[v _Read_char Read_char `(uc  1 e 1 0 ]
+{
+"46
+[v Read_char@c c `uc  1 a 1 2 ]
+"53
+} 0
+"80 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c
+[v _OpenXLCD OpenXLCD `(v  1 e 0 0 ]
+{
+[v OpenXLCD@lcdtype lcdtype `uc  1 a 1 wreg ]
+[v OpenXLCD@lcdtype lcdtype `uc  1 a 1 wreg ]
+"83
+[v OpenXLCD@lcdtype lcdtype `uc  1 a 1 6 ]
+"121
+} 0
+"44
+[v _WriteCmdXLCD WriteCmdXLCD `(v  1 e 0 0 ]
+{
+[v WriteCmdXLCD@cmd cmd `uc  1 a 1 wreg ]
+[v WriteCmdXLCD@cmd cmd `uc  1 a 1 wreg ]
+"47
+[v WriteCmdXLCD@cmd cmd `uc  1 a 1 2 ]
+"60
+} 0
+"13 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\XLCD\setddram.c
+[v _SetDDRamAddr SetDDRamAddr `(v  1 e 0 0 ]
+{
+[v SetDDRamAddr@DDaddr DDaddr `uc  1 a 1 wreg ]
+[v SetDDRamAddr@DDaddr DDaddr `uc  1 a 1 wreg ]
+"32
+[v SetDDRamAddr@DDaddr DDaddr `uc  1 a 1 5 ]
+"60
+} 0
+"53 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c
+[v _DelayPORXLCD DelayPORXLCD `(v  1 e 0 0 ]
+{
+"59
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\d10ktcyx.c
+[v _Delay10KTCYx Delay10KTCYx `(v  1 e 0 0 ]
+{
+[v Delay10KTCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay10KTCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay10KTCYx@unit unit `uc  1 a 1 1 ]
+"13
+} 0
+"22 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\xlcd.c
+[v _BusyXLCD BusyXLCD `(uc  1 e 1 0 ]
+{
+"43
+} 0
+"45 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c
+[v _DelayFor18TCY DelayFor18TCY `(v  1 e 0 0 ]
+{
+"47
+[v DelayFor18TCY@i i `uc  1 a 1 1 ]
+"52
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\d10tcyx.c
+[v _Delay10TCYx Delay10TCYx `(v  1 e 0 0 ]
+{
+[v Delay10TCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay10TCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay10TCYx@unit unit `uc  1 a 1 0 ]
+"13
+} 0
+"169 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c
+[v _Get_data Get_data `(uc  1 e 1 0 ]
+{
+"172
+[v Get_data@str2 str2 `[19]uc  1 a 19 0 ]
+"174
+[v Get_data@error error `[18]uc  1 a 18 33 ]
+"173
+[v Get_data@str8 str8 `[14]uc  1 a 14 19 ]
+"180
+[v Get_data@s_6 s_6 `[3]uc  1 a 3 66 ]
+"179
+[v Get_data@s_5 s_5 `[3]uc  1 a 3 63 ]
+"178
+[v Get_data@s_4 s_4 `[3]uc  1 a 3 60 ]
+"177
+[v Get_data@s_3 s_3 `[3]uc  1 a 3 57 ]
+"176
+[v Get_data@s_2 s_2 `[3]uc  1 a 3 54 ]
+"175
+[v Get_data@s_1 s_1 `[3]uc  1 a 3 51 ]
+"171
+[v Get_data@mode mode `uc  1 a 1 76 ]
+[v Get_data@month month `uc  1 a 1 75 ]
+[v Get_data@date date `uc  1 a 1 74 ]
+[v Get_data@year year `uc  1 a 1 73 ]
+[v Get_data@h h `uc  1 a 1 72 ]
+[v Get_data@m m `uc  1 a 1 71 ]
+[v Get_data@s s `uc  1 a 1 70 ]
+[v Get_data@day day `uc  1 a 1 69 ]
+[v Get_data@F227 F227 `[19]uc  1 s 19 F227 ]
+"172
+[v Get_data@F229 F229 `[14]uc  1 s 14 F229 ]
+"173
+[v Get_data@F231 F231 `[18]uc  1 s 18 F231 ]
+"174
+[v Get_data@F233 F233 `[3]uc  1 s 3 F233 ]
+"175
+[v Get_data@F235 F235 `[3]uc  1 s 3 F235 ]
+"176
+[v Get_data@F237 F237 `[3]uc  1 s 3 F237 ]
+"177
+[v Get_data@F239 F239 `[3]uc  1 s 3 F239 ]
+"178
+[v Get_data@F241 F241 `[3]uc  1 s 3 F241 ]
+"179
+[v Get_data@F243 F243 `[3]uc  1 s 3 F243 ]
+"219
+} 0
+"33 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+{
+"35
+[v strcmp@r r `c  1 a 1 5 ]
+"33
+[v strcmp@s1 s1 `*.39Cuc  1 p 2 0 ]
+[v strcmp@s2 s2 `*.39Cuc  1 p 2 2 ]
+"42
+} 0
+"57 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c
+[v _Write_time_ Write_time_ `(v  1 e 0 0 ]
+{
+[v Write_time_@s s `uc  1 a 1 wreg ]
+[v Write_time_@s s `uc  1 a 1 wreg ]
+[v Write_time_@m m `uc  1 p 1 4 ]
+[v Write_time_@h h `uc  1 p 1 5 ]
+"59
+[v Write_time_@s s `uc  1 a 1 6 ]
+"74
+} 0
+"14 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\i2c\i2c_open.c
+[v _OpenI2C OpenI2C `(v  1 e 0 0 ]
+{
+[v OpenI2C@sync_mode sync_mode `uc  1 a 1 wreg ]
+[v OpenI2C@sync_mode sync_mode `uc  1 a 1 wreg ]
+[v OpenI2C@slew slew `uc  1 p 1 0 ]
+"16
+[v OpenI2C@sync_mode sync_mode `uc  1 a 1 1 ]
+"26
+} 0
+"79 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c
+[v _Write_time Write_time `(v  1 e 0 0 ]
+{
+[v Write_time@day day `uc  1 a 1 wreg ]
+[v Write_time@day day `uc  1 a 1 wreg ]
+[v Write_time@date date `uc  1 p 1 4 ]
+[v Write_time@month month `uc  1 p 1 5 ]
+[v Write_time@year year `uc  1 p 1 6 ]
+"81
+[v Write_time@day day `uc  1 a 1 7 ]
+"98
+} 0
+"17 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\delay.c
+[v _delay_ms delay_ms `(v  1 e 0 0 ]
+{
+[v delay_ms@t t `uc  1 a 1 wreg ]
+"19
+[v delay_ms@i i `uc  1 a 1 2 ]
+"17
+[v delay_ms@t t `uc  1 a 1 wreg ]
+"20
+[v delay_ms@t t `uc  1 a 1 1 ]
+"26
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\d1ktcyx.c
+[v _Delay1KTCYx Delay1KTCYx `(v  1 e 0 0 ]
+{
+[v Delay1KTCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay1KTCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay1KTCYx@unit unit `uc  1 a 1 0 ]
+"13
+} 0
+"38 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c
+[v _Write_I2C Write_I2C `(v  1 e 0 0 ]
+{
+[v Write_I2C@c c `uc  1 a 1 wreg ]
+[v Write_I2C@c c `uc  1 a 1 wreg ]
+"40
+[v Write_I2C@c c `uc  1 a 1 3 ]
+"42
+} 0
+"12 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\i2c\i2c_writ.c
+[v _WriteI2C WriteI2C `(c  1 e 1 0 ]
+{
+[v WriteI2C@data_out data_out `uc  1 a 1 wreg ]
+[v WriteI2C@data_out data_out `uc  1 a 1 wreg ]
+"14
+[v WriteI2C@data_out data_out `uc  1 a 1 2 ]
+"43
+} 0
+"24 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\i2c\i2c_idle.c
+[v _IdleI2C IdleI2C `(v  1 e 0 0 ]
+{
+"28
+} 0
+"28 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\i2c_1.c
+[v _ReadBUF ReadBUF `(v  1 e 0 0 ]
+{
+"30
+[v ReadBUF@c c `uc  1 a 1 0 ]
+"33
+} 0
+"19 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\i2c\i2c_clos.c
+[v _CloseI2C CloseI2C `(v  1 e 0 0 ]
+{
+"22
+} 0
+"69 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c
+[v _Set_time Set_time `(v  1 e 0 0 ]
+{
+"72
+[v Set_time@str3 str3 `[37]uc  1 a 37 14 ]
+"73
+[v Set_time@error error `[18]uc  1 a 18 51 ]
+"71
+[v Set_time@h h `uc  1 a 1 74 ]
+[v Set_time@z z `uc  1 a 1 73 ]
+[v Set_time@y y `uc  1 a 1 72 ]
+[v Set_time@x x `uc  1 a 1 71 ]
+[v Set_time@m m `uc  1 a 1 70 ]
+[v Set_time@s s `uc  1 a 1 69 ]
+"69
+[v Set_time@sec sec `*.39uc  1 p 2 7 ]
+[v Set_time@min min `*.39uc  1 p 2 9 ]
+[v Set_time@hour hour `*.39uc  1 p 2 11 ]
+[v Set_time@mode mode `uc  1 p 1 13 ]
+"71
+[v Set_time@F198 F198 `[37]uc  1 s 37 F198 ]
+"72
+[v Set_time@F200 F200 `[18]uc  1 s 18 F200 ]
+"112
+} 0
+"115
+[v _Set_day Set_day `(uc  1 e 1 0 ]
+{
+"118
+[v Set_day@str5 str5 `[67]uc  1 a 67 7 ]
+"117
+[v Set_day@error error `[18]uc  1 a 18 74 ]
+"120
+[v Set_day@day day `uc  1 a 1 92 ]
+"116
+[v Set_day@F203 F203 `[18]uc  1 s 18 F203 ]
+"117
+[v Set_day@F205 F205 `[67]uc  1 s 67 F205 ]
+"137
+} 0
+"52
+[v _Clear_array Clear_array `(v  1 e 0 0 ]
+{
+"54
+[v Clear_array@i i `uc  1 a 1 3 ]
+"52
+[v Clear_array@e e `*.39uc  1 p 2 0 ]
+[v Clear_array@n n `uc  1 p 1 2 ]
+"60
+} 0
+"141
+[v _Set_date Set_date `(v  1 e 0 0 ]
+{
+"144
+[v Set_date@str6 str6 `[30]uc  1 a 30 13 ]
+[v Set_date@error error `[18]uc  1 a 18 43 ]
+"143
+[v Set_date@z z `uc  1 a 1 63 ]
+[v Set_date@y y `uc  1 a 1 62 ]
+[v Set_date@x x `uc  1 a 1 61 ]
+"141
+[v Set_date@date date `*.39uc  1 p 2 7 ]
+[v Set_date@month month `*.39uc  1 p 2 9 ]
+[v Set_date@year year `*.39uc  1 p 2 11 ]
+"143
+[v Set_date@F214 F214 `[30]uc  1 s 30 F214 ]
+"144
+[v Set_date@F216 F216 `[18]uc  1 s 18 F216 ]
+"164
+} 0
+"32 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\uart.c
+[v _Write_str Write_str `(v  1 e 0 0 ]
+{
+[v Write_str@c c `*.39uc  1 p 2 2 ]
+"42
+} 0
+"55
+[v _Read_string Read_string `(v  1 e 0 0 ]
+{
+"58
+[v Read_string@data data `uc  1 a 1 6 ]
+"57
+[v Read_string@i i `uc  1 a 1 5 ]
+"55
+[v Read_string@buffer buffer `*.39uc  1 p 2 2 ]
+[v Read_string@len len `uc  1 p 1 4 ]
+"70
+} 0
+"26
+[v _Write Write `(v  1 e 0 0 ]
+{
+[v Write@data data `uc  1 a 1 wreg ]
+[v Write@data data `uc  1 a 1 wreg ]
+"28
+[v Write@data data `uc  1 a 1 1 ]
+"30
+} 0
+"13 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\uwrite.c
+[v _WriteUSART WriteUSART `(v  1 e 0 0 ]
+{
+[v WriteUSART@data data `uc  1 a 1 wreg ]
+[v WriteUSART@data data `uc  1 a 1 wreg ]
+"15
+[v WriteUSART@data data `uc  1 a 1 0 ]
+"23
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\uread.c
+[v _ReadUSART ReadUSART `(uc  1 e 1 0 ]
+{
+"17
+[v ReadUSART@data data `uc  1 a 1 0 ]
+"37
+} 0
+"44 C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\RTC\Example_14.2.X\time.c
+[v _BCD_to_DEC BCD_to_DEC `(uc  1 e 1 0 ]
+{
+[v BCD_to_DEC@c c `uc  1 a 1 wreg ]
+[v BCD_to_DEC@c c `uc  1 a 1 wreg ]
+"46
+[v BCD_to_DEC@c c `uc  1 a 1 1 ]
+"47
+} 0
+"33
+[v _BCD_format BCD_format `(uc  1 e 1 0 ]
+{
+"35
+[v BCD_format@a a `uc  1 a 1 3 ]
+"34
+[v BCD_format@str str `*.39uc  1 p 2 0 ]
+"39
+} 0

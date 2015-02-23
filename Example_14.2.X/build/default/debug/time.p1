@@ -1,0 +1,1540 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"37 uart.h
+[v _Write_str `(v ~T0 @X0 0 ef1`*uc ]
+"60
+[v _Read_string `(v ~T0 @X0 0 ef2`*uc`uc ]
+"18 array.h
+[v _str `uc ~T0 @X0 -> 0 `x e ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.21\include\string.h
+[v _strcmp `(i ~T0 @X0 0 ef2`*Cuc`*Cuc ]
+"87 i2c_1.h
+[v _Write_time_ `(v ~T0 @X0 0 ef3`uc`uc`uc ]
+"26
+[v _Write_time `(v ~T0 @X0 0 ef4`uc`uc`uc`uc ]
+"15
+[v _Read `(uc ~T0 @X0 0 ef ]
+"19 array.h
+[v _time `uc ~T0 @X0 -> 0 `x e ]
+[; ;i2c_1.h: 15: unsigned char Read(void);
+[; ;i2c_1.h: 26: void Write_time(unsigned char day, unsigned char date, unsigned char month, unsigned char year);
+[; ;i2c_1.h: 37: void Read_time(unsigned char mode);
+[; ;i2c_1.h: 48: unsigned char Read_From_Addr(unsigned char addr);
+[; ;i2c_1.h: 58: void Write_to_Addr(unsigned char data, unsigned char addr);
+[; ;i2c_1.h: 68: extern void ReadBUF(void);
+[; ;i2c_1.h: 79: void Write_I2C(unsigned char c);
+[; ;i2c_1.h: 87: void Write_time_(unsigned char s, unsigned char m, unsigned char h);
+[; ;time.h: 14: void main(void);
+[; ;time.h: 24: unsigned char DEC_to_BCD(unsigned char t);
+[; ;time.h: 34: unsigned char BCD_format(unsigned char *str);
+[; ;time.h: 44: unsigned char BCD_to_DEC(unsigned char c);
+[; ;time.h: 54: void Clear_array(unsigned char *e, unsigned char n);
+[; ;time.h: 65: void Set_time(unsigned char* sec, unsigned char* min, unsigned char* hour, unsigned char mode);
+[; ;time.h: 75: unsigned char Set_day(void);
+[; ;time.h: 84: void Set_date(unsigned char* date, unsigned char* month, unsigned char* year);
+[; ;time.h: 94: unsigned char Get_data(void);
+[; ;time.h: 104: void Read_sec(unsigned char * e);
+[; ;time.h: 114: void Read_min(unsigned char * e);
+[; ;time.h: 124: void Read_hour(unsigned char * e, unsigned char mode);
+[; ;time.h: 134: void Write_ARR(unsigned char *c, unsigned char * e);
+[; ;time.h: 144: void write_DAY(unsigned char day);
+[; ;time.h: 154: void Read_day(void);
+[; ;time.h: 164: void Read_date(unsigned char * e);
+[; ;time.h: 175: void Read_month(unsigned char *e);
+[; ;time.h: 185: void Read_year(unsigned char *e);
+[; ;array.h: 18: extern unsigned char str[11];
+[; ;array.h: 19: extern unsigned char time[];
+[; ;delay.h: 16: void delay_ms(unsigned char t);
+[; ;delay.h: 27: void delay_us(unsigned char t);
+[; ;delay.h: 37: void Delay_s(unsigned char t);
+[; ;delay.h: 44: void DelayFor18TCY( void );
+[; ;delay.h: 45: extern void DelayXLCD (void);
+[; ;delay.h: 46: void DelayXLCD (void);
+[; ;uart.h: 15: void UsartConfig(unsigned char config1, unsigned char config2);
+[; ;uart.h: 26: void Write(char data);
+[; ;uart.h: 37: void Write_str(unsigned char *c);
+[; ;uart.h: 48: unsigned char Read_char(void);
+[; ;uart.h: 60: void Read_string(unsigned char *str, unsigned char n);
+[; ;string.h: 4: typedef int ptrdiff_t;
+[; ;string.h: 5: typedef unsigned size_t;
+[; ;string.h: 6: typedef unsigned short wchar_t;
+[; ;string.h: 9: extern int errno;
+[; ;string.h: 22: extern void * memcpy(void *, const void *, size_t);
+[; ;string.h: 23: extern void * memmove(void *, const void *, size_t);
+[; ;string.h: 24: extern void * memset(void *, int, size_t);
+[; ;string.h: 35: extern char * strcat(char *, const char *);
+[; ;string.h: 36: extern char * strcpy(char *, const char *);
+[; ;string.h: 37: extern char * strncat(char *, const char *, size_t);
+[; ;string.h: 38: extern char * strncpy(char *, const char *, size_t);
+[; ;string.h: 39: extern char * strdup(const char *);
+[; ;string.h: 40: extern char * strtok(char *, const char *);
+[; ;string.h: 43: extern int memcmp(const void *, const void *, size_t);
+[; ;string.h: 44: extern int strcmp(const char *, const char *);
+[; ;string.h: 45: extern int stricmp(const char *, const char *);
+[; ;string.h: 46: extern int strncmp(const char *, const char *, size_t);
+[; ;string.h: 47: extern int strnicmp(const char *, const char *, size_t);
+[; ;string.h: 48: extern void * memchr(const void *, int, size_t);
+[; ;string.h: 49: extern size_t strcspn(const char *, const char *);
+[; ;string.h: 50: extern char * strpbrk(const char *, const char *);
+[; ;string.h: 51: extern size_t strspn(const char *, const char *);
+[; ;string.h: 52: extern char * strstr(const char *, const char *);
+[; ;string.h: 53: extern char * stristr(const char *, const char *);
+[; ;string.h: 54: extern char * strerror(int);
+[; ;string.h: 55: extern size_t strlen(const char *);
+[; ;string.h: 56: extern char * strchr(const char *, int);
+[; ;string.h: 57: extern char * strichr(const char *, int);
+[; ;string.h: 58: extern char * strrchr(const char *, int);
+[; ;string.h: 59: extern char * strrichr(const char *, int);
+"26 time.c
+[v _DEC_to_BCD `(uc ~T0 @X0 1 ef1`uc ]
+{
+[; ;time.c: 25: unsigned char DEC_to_BCD(unsigned char t)
+[; ;time.c: 26: {
+[e :U _DEC_to_BCD ]
+[v _t `uc ~T0 @X0 1 r1 ]
+[f ]
+[; ;time.c: 27: return (((t/10)<<4)|(t%10));
+"27
+[e ) -> | << / -> _t `i -> 10 `i -> 4 `i % -> _t `i -> 10 `i `uc ]
+[e $UE 1  ]
+[; ;time.c: 28: }
+"28
+[e :UE 1 ]
+}
+"34
+[v _BCD_format `(uc ~T0 @X0 1 ef1`*uc ]
+{
+[; ;time.c: 33: unsigned char BCD_format(unsigned char *str)
+[; ;time.c: 34: {
+[e :U _BCD_format ]
+[v _str `*uc ~T0 @X0 1 r1 ]
+[f ]
+"35
+[v _a `uc ~T0 @X0 1 a ]
+[; ;time.c: 35: unsigned char a;
+[; ;time.c: 36: a = (*str-'0')<<4;
+"36
+[e = _a -> << - -> *U _str `ui -> 48 `ui -> 4 `i `uc ]
+[; ;time.c: 37: str++;
+"37
+[e ++ _str * -> -> 1 `i `x -> -> # *U _str `i `x ]
+[; ;time.c: 38: return (a|(*str-'0'));
+"38
+[e ) -> | -> _a `ui - -> *U _str `ui -> 48 `ui `uc ]
+[e $UE 2  ]
+[; ;time.c: 39: }
+"39
+[e :UE 2 ]
+}
+"45
+[v _BCD_to_DEC `(uc ~T0 @X0 1 ef1`uc ]
+{
+[; ;time.c: 44: unsigned char BCD_to_DEC(unsigned char c)
+[; ;time.c: 45: {
+[e :U _BCD_to_DEC ]
+[v _c `uc ~T0 @X0 1 r1 ]
+[f ]
+[; ;time.c: 46: return ((c>>4)*10+(c&0x0F)*1);
+"46
+[e ) -> + * >> -> _c `i -> 4 `i -> 10 `i * & -> _c `i -> 15 `i -> 1 `i `uc ]
+[e $UE 3  ]
+[; ;time.c: 47: }
+"47
+[e :UE 3 ]
+}
+"53
+[v _Clear_array `(v ~T0 @X0 1 ef2`*uc`uc ]
+{
+[; ;time.c: 52: void Clear_array(unsigned char *e, unsigned char n)
+[; ;time.c: 53: {
+[e :U _Clear_array ]
+[v _e `*uc ~T0 @X0 1 r1 ]
+[v _n `uc ~T0 @X0 1 r2 ]
+[f ]
+"54
+[v _i `uc ~T0 @X0 1 a ]
+[; ;time.c: 54: unsigned char i;
+[; ;time.c: 55: for(i=0;i<n;i++)
+"55
+{
+[e = _i -> -> 0 `i `uc ]
+[e $U 8  ]
+"56
+[e :U 5 ]
+[; ;time.c: 56: {
+{
+[; ;time.c: 57: *e = ' ';
+"57
+[e = *U _e -> -> 32 `ui `uc ]
+[; ;time.c: 58: e++;
+"58
+[e ++ _e * -> -> 1 `i `x -> -> # *U _e `i `x ]
+"59
+}
+"55
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 8 ]
+[e $ < -> _i `i -> _n `i 5  ]
+[e :U 6 ]
+"59
+}
+[; ;time.c: 59: }
+[; ;time.c: 60: }
+"60
+[e :UE 4 ]
+}
+"70
+[v _Set_time `(v ~T0 @X0 1 ef4`*uc`*uc`*uc`uc ]
+{
+[; ;time.c: 69: void Set_time(unsigned char* sec, unsigned char* min, unsigned char* hour, unsigned char mode)
+[; ;time.c: 70: {
+[e :U _Set_time ]
+[v _sec `*uc ~T0 @X0 1 r1 ]
+[v _min `*uc ~T0 @X0 1 r2 ]
+[v _hour `*uc ~T0 @X0 1 r3 ]
+[v _mode `uc ~T0 @X0 1 r4 ]
+[f ]
+"71
+[v _s `uc ~T0 @X0 1 a ]
+[v _m `uc ~T0 @X0 1 a ]
+[v _h `uc ~T0 @X0 1 a ]
+[v _x `uc ~T0 @X0 1 a ]
+[v _y `uc ~T0 @X0 1 a ]
+[v _z `uc ~T0 @X0 1 a ]
+"72
+[v F198 `uc ~T0 @X0 -> 37 `i s ]
+[i F198
+:U ..
+-> 10 `c
+-> 69 `c
+-> 110 `c
+-> 116 `c
+-> 101 `c
+-> 114 `c
+-> 32 `c
+-> 116 `c
+-> 104 `c
+-> 101 `c
+-> 32 `c
+-> 116 `c
+-> 105 `c
+-> 109 `c
+-> 101 `c
+-> 32 `c
+-> 105 `c
+-> 110 `c
+-> 32 `c
+-> 116 `c
+-> 104 `c
+-> 101 `c
+-> 32 `c
+-> 102 `c
+-> 111 `c
+-> 114 `c
+-> 109 `c
+-> 97 `c
+-> 116 `c
+-> 32 `c
+-> 72 `c
+-> 72 `c
+-> 77 `c
+-> 77 `c
+-> 83 `c
+-> 83 `c
+-> 0 `c
+..
+]
+[v _str3 `uc ~T0 @X0 -> 37 `i a ]
+[; ;time.c: 71: unsigned char s, m, h, x, y, z;
+[; ;time.c: 72: unsigned char str3[37] = "\nEnter the time in the format HHMMSS";
+[e = _str3 F198 ]
+"73
+[v F200 `uc ~T0 @X0 -> 0 `x s ]
+[i F200
+:U ..
+-> 10 `c
+-> 73 `c
+-> 110 `c
+-> 118 `c
+-> 97 `c
+-> 108 `c
+-> 105 `c
+-> 100 `c
+-> 32 `c
+-> 69 `c
+-> 110 `c
+-> 116 `c
+-> 114 `c
+-> 121 `c
+-> 46 `c
+-> 46 `c
+-> 33 `c
+-> 0 `c
+..
+]
+[v _error `uc ~T0 @X0 18  a ]
+[; ;time.c: 73: unsigned char error[] = "\nInvalid Entry..!";
+[e = _error F200 ]
+[; ;time.c: 74: do
+"74
+[e :U 12 ]
+[; ;time.c: 75: {
+"75
+{
+[; ;time.c: 76: Write_str(str3);
+"76
+[e ( _Write_str (1 &U _str3 ]
+[; ;time.c: 77: Read_string(str, 6);
+"77
+[e ( _Read_string (2 , &U _str -> -> 6 `i `uc ]
+[; ;time.c: 78: h = BCD_format(str);
+"78
+[e = _h ( _BCD_format (1 &U _str ]
+[; ;time.c: 79: m = BCD_format(str+2);
+"79
+[e = _m ( _BCD_format (1 + &U _str * -> -> 2 `i `x -> -> # *U &U _str `i `x ]
+[; ;time.c: 80: s = BCD_format(str+4);
+"80
+[e = _s ( _BCD_format (1 + &U _str * -> -> 4 `i `x -> -> # *U &U _str `i `x ]
+[; ;time.c: 81: x = BCD_to_DEC(s);
+"81
+[e = _x ( _BCD_to_DEC (1 _s ]
+[; ;time.c: 82: y = BCD_to_DEC(m);
+"82
+[e = _y ( _BCD_to_DEC (1 _m ]
+[; ;time.c: 83: z = BCD_to_DEC(h);
+"83
+[e = _z ( _BCD_to_DEC (1 _h ]
+[; ;time.c: 84: if((mode==0)||(mode==1))
+"84
+[e $ ! || == -> _mode `i -> 0 `i == -> _mode `i -> 1 `i 13  ]
+[; ;time.c: 85: {
+"85
+{
+[; ;time.c: 86: if(((x>=0&&x<=59) && (y>=0&&y<=59) && (z>=1&&z<=12) ))
+"86
+[e $ ! && && && >= -> _x `i -> 0 `i <= -> _x `i -> 59 `i && >= -> _y `i -> 0 `i <= -> _y `i -> 59 `i && >= -> _z `i -> 1 `i <= -> _z `i -> 12 `i 14  ]
+[; ;time.c: 87: {
+"87
+{
+[; ;time.c: 88: s = s&0x7F;
+"88
+[e = _s -> & -> _s `i -> 127 `i `uc ]
+[; ;time.c: 89: m = m&0x7F;
+"89
+[e = _m -> & -> _m `i -> 127 `i `uc ]
+[; ;time.c: 90: h = h&0x1F;
+"90
+[e = _h -> & -> _h `i -> 31 `i `uc ]
+[; ;time.c: 91: if(mode==0)
+"91
+[e $ ! == -> _mode `i -> 0 `i 15  ]
+[; ;time.c: 92: h = h|0x40;
+"92
+[e = _h -> | -> _h `i -> 64 `i `uc ]
+[e $U 16  ]
+"93
+[e :U 15 ]
+[; ;time.c: 93: else if(mode == 1)
+[e $ ! == -> _mode `i -> 1 `i 17  ]
+[; ;time.c: 94: h = h|0x60;
+"94
+[e = _h -> | -> _h `i -> 96 `i `uc ]
+[e :U 17 ]
+"95
+[e :U 16 ]
+[; ;time.c: 95: h = h&0x7F;
+[e = _h -> & -> _h `i -> 127 `i `uc ]
+"96
+}
+[; ;time.c: 96: }
+[e $U 18  ]
+"97
+[e :U 14 ]
+[; ;time.c: 97: else
+[; ;time.c: 98: Write_str(error);
+"98
+[e ( _Write_str (1 &U _error ]
+[e :U 18 ]
+"99
+}
+[; ;time.c: 99: }
+[e $U 19  ]
+"100
+[e :U 13 ]
+[; ;time.c: 100: else if(((x>=0&&x<=59) && (y>=0&&y<=59) && (z>=0&&z<=24) ) && (mode==2))
+[e $ ! && && && && >= -> _x `i -> 0 `i <= -> _x `i -> 59 `i && >= -> _y `i -> 0 `i <= -> _y `i -> 59 `i && >= -> _z `i -> 0 `i <= -> _z `i -> 24 `i == -> _mode `i -> 2 `i 20  ]
+[; ;time.c: 101: {
+"101
+{
+[; ;time.c: 102: h = h|0x00;
+"102
+[e = _h -> | -> _h `i -> 0 `i `uc ]
+[; ;time.c: 103: h = h&0x7F;
+"103
+[e = _h -> & -> _h `i -> 127 `i `uc ]
+"104
+}
+[; ;time.c: 104: }
+[e $U 21  ]
+"105
+[e :U 20 ]
+[; ;time.c: 105: else
+[; ;time.c: 106: Write_str(error);
+"106
+[e ( _Write_str (1 &U _error ]
+[e :U 21 ]
+[e :U 19 ]
+"107
+}
+[; ;time.c: 107: }while(!(((x>=0&&x<=59) && (y>=0&&y<=59) && (z>=1&&z<=12)) || ((x>=0&&x<=59) && (y>=0&&y<=59) && (z>=0&&z<=24) && (mode==2)) ));
+[e $ ! || && && && >= -> _x `i -> 0 `i <= -> _x `i -> 59 `i && >= -> _y `i -> 0 `i <= -> _y `i -> 59 `i && >= -> _z `i -> 1 `i <= -> _z `i -> 12 `i && && && && >= -> _x `i -> 0 `i <= -> _x `i -> 59 `i && >= -> _y `i -> 0 `i <= -> _y `i -> 59 `i && >= -> _z `i -> 0 `i <= -> _z `i -> 24 `i == -> _mode `i -> 2 `i 12  ]
+[e :U 11 ]
+[; ;time.c: 109: *sec = s;
+"109
+[e = *U _sec _s ]
+[; ;time.c: 110: *min = m;
+"110
+[e = *U _min _m ]
+[; ;time.c: 111: *hour = h;
+"111
+[e = *U _hour _h ]
+[; ;time.c: 112: }
+"112
+[e :UE 9 ]
+}
+"116
+[v _Set_day `(uc ~T0 @X0 1 ef ]
+{
+[; ;time.c: 115: unsigned char Set_day(void)
+[; ;time.c: 116: {
+[e :U _Set_day ]
+[f ]
+"117
+[v F203 `uc ~T0 @X0 -> 18 `i s ]
+[i F203
+:U ..
+-> 10 `c
+-> 73 `c
+-> 110 `c
+-> 118 `c
+-> 97 `c
+-> 108 `c
+-> 105 `c
+-> 100 `c
+-> 32 `c
+-> 69 `c
+-> 110 `c
+-> 116 `c
+-> 114 `c
+-> 121 `c
+-> 46 `c
+-> 46 `c
+-> 33 `c
+-> 0 `c
+..
+]
+[v _error `uc ~T0 @X0 -> 18 `i a ]
+[; ;time.c: 117: unsigned char error[18] = "\nInvalid Entry..!";
+[e = _error F203 ]
+"118
+[v F205 `uc ~T0 @X0 -> 0 `x s ]
+[i F205
+:U ..
+-> 10 `c
+-> 69 `c
+-> 110 `c
+-> 116 `c
+-> 101 `c
+-> 114 `c
+-> 32 `c
+-> 116 `c
+-> 104 `c
+-> 101 `c
+-> 32 `c
+-> 68 `c
+-> 65 `c
+-> 89 `c
+-> 32 `c
+-> 83 `c
+-> 85 `c
+-> 78 `c
+-> 45 `c
+-> 48 `c
+-> 49 `c
+-> 32 `c
+-> 77 `c
+-> 79 `c
+-> 78 `c
+-> 45 `c
+-> 48 `c
+-> 50 `c
+-> 32 `c
+-> 84 `c
+-> 85 `c
+-> 69 `c
+-> 45 `c
+-> 48 `c
+-> 51 `c
+-> 32 `c
+-> 87 `c
+-> 69 `c
+-> 68 `c
+-> 45 `c
+-> 48 `c
+-> 52 `c
+-> 32 `c
+-> 84 `c
+-> 72 `c
+-> 85 `c
+-> 82 `c
+-> 83 `c
+-> 45 `c
+-> 48 `c
+-> 53 `c
+-> 32 `c
+-> 70 `c
+-> 82 `c
+-> 73 `c
+-> 45 `c
+-> 48 `c
+-> 54 `c
+-> 32 `c
+-> 83 `c
+-> 65 `c
+-> 84 `c
+-> 45 `c
+-> 48 `c
+-> 55 `c
+-> 0 `c
+-> 0 `c
+..
+]
+[v _str5 `uc ~T0 @X0 67  a ]
+[; ;time.c: 118: unsigned char str5[] = "\nEnter the DAY SUN-01 MON-02 TUE-03 WED-04 THURS-05 FRI-06 SAT-07\0";
+[e = _str5 F205 ]
+"120
+[v _day `uc ~T0 @X0 1 a ]
+[; ;time.c: 120: unsigned char day;
+[; ;time.c: 121: Write_str(str5);
+"121
+[e ( _Write_str (1 &U _str5 ]
+[; ;time.c: 122: Clear_array(str, 8);
+"122
+[e ( _Clear_array (2 , &U _str -> -> 8 `i `uc ]
+[; ;time.c: 123: do
+"123
+[e :U 25 ]
+[; ;time.c: 124: {
+"124
+{
+[; ;time.c: 125: Read_string(str, 2);
+"125
+[e ( _Read_string (2 , &U _str -> -> 2 `i `uc ]
+[; ;time.c: 126: day = BCD_format(str);
+"126
+[e = _day ( _BCD_format (1 &U _str ]
+[; ;time.c: 127: Write_str(str);
+"127
+[e ( _Write_str (1 &U _str ]
+[; ;time.c: 128: if(day>=1 && day<=7)
+"128
+[e $ ! && >= -> _day `i -> 1 `i <= -> _day `i -> 7 `i 26  ]
+[; ;time.c: 129: {
+"129
+{
+[; ;time.c: 130: return (day);
+"130
+[e ) _day ]
+[e $UE 22  ]
+"131
+}
+[; ;time.c: 131: }
+[e $U 27  ]
+"132
+[e :U 26 ]
+[; ;time.c: 132: else{
+{
+[; ;time.c: 133: Write_str(error);
+"133
+[e ( _Write_str (1 &U _error ]
+"135
+}
+[e :U 27 ]
+"136
+}
+[; ;time.c: 135: }
+[; ;time.c: 136: }while(!(day>=1 && day<=7));
+[e $ ! && >= -> _day `i -> 1 `i <= -> _day `i -> 7 `i 25  ]
+[e :U 24 ]
+[; ;time.c: 137: }
+"137
+[e :UE 22 ]
+}
+"142
+[v _Set_date `(v ~T0 @X0 1 ef3`*uc`*uc`*uc ]
+{
+[; ;time.c: 141: void Set_date(unsigned char* date, unsigned char* month, unsigned char* year)
+[; ;time.c: 142: {
+[e :U _Set_date ]
+[v _date `*uc ~T0 @X0 1 r1 ]
+[v _month `*uc ~T0 @X0 1 r2 ]
+[v _year `*uc ~T0 @X0 1 r3 ]
+[f ]
+"143
+[v _x `uc ~T0 @X0 1 a ]
+[v _y `uc ~T0 @X0 1 a ]
+[v _z `uc ~T0 @X0 1 a ]
+"144
+[v F214 `uc ~T0 @X0 -> 30 `i s ]
+[i F214
+:U ..
+-> 10 `c
+-> 69 `c
+-> 110 `c
+-> 116 `c
+-> 101 `c
+-> 114 `c
+-> 32 `c
+-> 68 `c
+-> 65 `c
+-> 84 `c
+-> 69 `c
+-> 47 `c
+-> 77 `c
+-> 79 `c
+-> 78 `c
+-> 84 `c
+-> 72 `c
+-> 47 `c
+-> 89 `c
+-> 69 `c
+-> 65 `c
+-> 82 `c
+-> 9 `c
+-> 68 `c
+-> 68 `c
+-> 77 `c
+-> 77 `c
+-> 89 `c
+-> 89 `c
+-> 0 `c
+..
+]
+[v _str6 `uc ~T0 @X0 -> 30 `i a ]
+[; ;time.c: 143: unsigned char x, y, z;
+[; ;time.c: 144: unsigned char str6[30] = "\nEnter DATE/MONTH/YEAR\tDDMMYY", error[] = "\nInvalid Entry..!";
+[e = _str6 F214 ]
+[v F216 `uc ~T0 @X0 -> 0 `x s ]
+[i F216
+:U ..
+-> 10 `c
+-> 73 `c
+-> 110 `c
+-> 118 `c
+-> 97 `c
+-> 108 `c
+-> 105 `c
+-> 100 `c
+-> 32 `c
+-> 69 `c
+-> 110 `c
+-> 116 `c
+-> 114 `c
+-> 121 `c
+-> 46 `c
+-> 46 `c
+-> 33 `c
+-> 0 `c
+..
+]
+[v _error `uc ~T0 @X0 18  a ]
+[e = _error F216 ]
+[; ;time.c: 145: do
+"145
+[e :U 31 ]
+[; ;time.c: 146: {
+"146
+{
+[; ;time.c: 147: Write_str(str6);
+"147
+[e ( _Write_str (1 &U _str6 ]
+[; ;time.c: 148: Read_string(str, 6);
+"148
+[e ( _Read_string (2 , &U _str -> -> 6 `i `uc ]
+[; ;time.c: 149: *date = BCD_format(str);
+"149
+[e = *U _date ( _BCD_format (1 &U _str ]
+[; ;time.c: 150: *month = BCD_format(str+2);
+"150
+[e = *U _month ( _BCD_format (1 + &U _str * -> -> 2 `i `x -> -> # *U &U _str `i `x ]
+[; ;time.c: 151: *year = BCD_format(str+4);
+"151
+[e = *U _year ( _BCD_format (1 + &U _str * -> -> 4 `i `x -> -> # *U &U _str `i `x ]
+[; ;time.c: 152: x = BCD_to_DEC(*date);
+"152
+[e = _x ( _BCD_to_DEC (1 *U _date ]
+[; ;time.c: 153: y = BCD_to_DEC(*month);
+"153
+[e = _y ( _BCD_to_DEC (1 *U _month ]
+[; ;time.c: 154: z = BCD_to_DEC(*year);
+"154
+[e = _z ( _BCD_to_DEC (1 *U _year ]
+[; ;time.c: 155: if((x>=1&&x<=31) && (y>=1&&y<=12) && (z>=1&&z<=99))
+"155
+[e $ ! && && && >= -> _x `i -> 1 `i <= -> _x `i -> 31 `i && >= -> _y `i -> 1 `i <= -> _y `i -> 12 `i && >= -> _z `i -> 1 `i <= -> _z `i -> 99 `i 32  ]
+[; ;time.c: 156: {
+"156
+{
+[; ;time.c: 157: *date = *date & 0x3F;
+"157
+[e = *U _date -> & -> *U _date `i -> 63 `i `uc ]
+[; ;time.c: 158: *month = *month & 0x1F;
+"158
+[e = *U _month -> & -> *U _month `i -> 31 `i `uc ]
+[; ;time.c: 159: *year = *year & 0xFF;
+"159
+[e = *U _year -> & -> *U _year `i -> 255 `i `uc ]
+"160
+}
+[; ;time.c: 160: }
+[e $U 33  ]
+"161
+[e :U 32 ]
+[; ;time.c: 161: else
+[; ;time.c: 162: Write_str(error);
+"162
+[e ( _Write_str (1 &U _error ]
+[e :U 33 ]
+"163
+}
+[; ;time.c: 163: }while(!((x>=0&&x<=31) && (y>=0&&y<=12) && (z>=0&&z<=99)));
+[e $ ! && && && >= -> _x `i -> 0 `i <= -> _x `i -> 31 `i && >= -> _y `i -> 0 `i <= -> _y `i -> 12 `i && >= -> _z `i -> 0 `i <= -> _z `i -> 99 `i 31  ]
+[e :U 30 ]
+[; ;time.c: 164: }
+"164
+[e :UE 28 ]
+}
+"170
+[v _Get_data `(uc ~T0 @X0 1 ef ]
+{
+[; ;time.c: 169: unsigned char Get_data(void)
+[; ;time.c: 170: {
+[e :U _Get_data ]
+[f ]
+"171
+[v _s `uc ~T0 @X0 1 a ]
+[v _m `uc ~T0 @X0 1 a ]
+[v _h `uc ~T0 @X0 1 a ]
+[v _day `uc ~T0 @X0 1 a ]
+[v _date `uc ~T0 @X0 1 a ]
+[v _month `uc ~T0 @X0 1 a ]
+[v _year `uc ~T0 @X0 1 a ]
+[v _mode `uc ~T0 @X0 1 a ]
+[; ;time.c: 171: unsigned char s, m, h, day, date, month, year, mode=4;
+[e = _mode -> -> 4 `i `uc ]
+"172
+[v F227 `uc ~T0 @X0 -> 19 `i s ]
+[i F227
+:U ..
+-> 10 `c
+-> 83 `c
+-> 69 `c
+-> 76 `c
+-> 69 `c
+-> 67 `c
+-> 84 `c
+-> 32 `c
+-> 77 `c
+-> 79 `c
+-> 68 `c
+-> 69 `c
+-> 32 `c
+-> 49 `c
+-> 50 `c
+-> 47 `c
+-> 50 `c
+-> 52 `c
+-> 0 `c
+..
+]
+[v _str2 `uc ~T0 @X0 -> 19 `i a ]
+[; ;time.c: 172: unsigned char str2[19] = "\nSELECT MODE 12/24";
+[e = _str2 F227 ]
+"173
+[v F229 `uc ~T0 @X0 -> 14 `i s ]
+[i F229
+:U ..
+-> 10 `c
+-> 69 `c
+-> 110 `c
+-> 116 `c
+-> 101 `c
+-> 114 `c
+-> 32 `c
+-> 65 `c
+-> 77 `c
+-> 47 `c
+-> 80 `c
+-> 77 `c
+-> 63 `c
+-> 0 `c
+..
+]
+[v _str8 `uc ~T0 @X0 -> 14 `i a ]
+[; ;time.c: 173: unsigned char str8[14] = "\nEnter AM/PM?";
+[e = _str8 F229 ]
+"174
+[v F231 `uc ~T0 @X0 -> 0 `x s ]
+[i F231
+:U ..
+-> 10 `c
+-> 73 `c
+-> 110 `c
+-> 118 `c
+-> 97 `c
+-> 108 `c
+-> 105 `c
+-> 100 `c
+-> 32 `c
+-> 69 `c
+-> 110 `c
+-> 116 `c
+-> 114 `c
+-> 121 `c
+-> 46 `c
+-> 46 `c
+-> 33 `c
+-> 0 `c
+..
+]
+[v _error `uc ~T0 @X0 18  a ]
+[; ;time.c: 174: unsigned char error[] = "\nInvalid Entry..!";
+[e = _error F231 ]
+"175
+[v F233 `uc ~T0 @X0 -> 3 `i s ]
+[i F233
+:U ..
+-> 49 `c
+-> 50 `c
+-> 0 `c
+..
+]
+[v _s_1 `uc ~T0 @X0 -> 3 `i a ]
+[; ;time.c: 175: unsigned char s_1[3] = "12";
+[e = _s_1 F233 ]
+"176
+[v F235 `uc ~T0 @X0 -> 3 `i s ]
+[i F235
+:U ..
+-> 50 `c
+-> 52 `c
+-> 0 `c
+..
+]
+[v _s_2 `uc ~T0 @X0 -> 3 `i a ]
+[; ;time.c: 176: unsigned char s_2[3] = "24";
+[e = _s_2 F235 ]
+"177
+[v F237 `uc ~T0 @X0 -> 3 `i s ]
+[i F237
+:U ..
+-> 97 `c
+-> 109 `c
+-> 0 `c
+..
+]
+[v _s_3 `uc ~T0 @X0 -> 3 `i a ]
+[; ;time.c: 177: unsigned char s_3[3] = "am";
+[e = _s_3 F237 ]
+"178
+[v F239 `uc ~T0 @X0 -> 3 `i s ]
+[i F239
+:U ..
+-> 65 `c
+-> 77 `c
+-> 0 `c
+..
+]
+[v _s_4 `uc ~T0 @X0 -> 3 `i a ]
+[; ;time.c: 178: unsigned char s_4[3] = "AM";
+[e = _s_4 F239 ]
+"179
+[v F241 `uc ~T0 @X0 -> 3 `i s ]
+[i F241
+:U ..
+-> 112 `c
+-> 109 `c
+-> 0 `c
+..
+]
+[v _s_5 `uc ~T0 @X0 -> 3 `i a ]
+[; ;time.c: 179: unsigned char s_5[3] = "pm";
+[e = _s_5 F241 ]
+"180
+[v F243 `uc ~T0 @X0 -> 3 `i s ]
+[i F243
+:U ..
+-> 80 `c
+-> 77 `c
+-> 0 `c
+..
+]
+[v _s_6 `uc ~T0 @X0 -> 3 `i a ]
+[; ;time.c: 180: unsigned char s_6[3] = "PM";
+[e = _s_6 F243 ]
+[; ;time.c: 181: do
+"181
+[e :U 37 ]
+[; ;time.c: 182: {
+"182
+{
+[; ;time.c: 183: Write_str(str2);
+"183
+[e ( _Write_str (1 &U _str2 ]
+[; ;time.c: 184: Read_string(str, 2);
+"184
+[e ( _Read_string (2 , &U _str -> -> 2 `i `uc ]
+[; ;time.c: 185: if(!(strcmp(str, s_1)))
+"185
+[e $ ! ! != ( _strcmp (2 , -> &U _str `*Cuc -> &U _s_1 `*Cuc -> 0 `i 38  ]
+[; ;time.c: 186: {
+"186
+{
+[; ;time.c: 187: do{
+"187
+[e :U 41 ]
+{
+[; ;time.c: 188: Write_str(str8);
+"188
+[e ( _Write_str (1 &U _str8 ]
+[; ;time.c: 189: Read_string(str, 2);
+"189
+[e ( _Read_string (2 , &U _str -> -> 2 `i `uc ]
+[; ;time.c: 190: if(!(strcmp(str, s_3)) || !(strcmp(str, s_4)) )
+"190
+[e $ ! || ! != ( _strcmp (2 , -> &U _str `*Cuc -> &U _s_3 `*Cuc -> 0 `i ! != ( _strcmp (2 , -> &U _str `*Cuc -> &U _s_4 `*Cuc -> 0 `i 42  ]
+[; ;time.c: 191: {
+"191
+{
+[; ;time.c: 192: mode = 0;
+"192
+[e = _mode -> -> 0 `i `uc ]
+"193
+}
+[; ;time.c: 193: }
+[e $U 43  ]
+"194
+[e :U 42 ]
+[; ;time.c: 194: else if(!(strcmp(str, s_5)) || !(strcmp(str, s_6)) )
+[e $ ! || ! != ( _strcmp (2 , -> &U _str `*Cuc -> &U _s_5 `*Cuc -> 0 `i ! != ( _strcmp (2 , -> &U _str `*Cuc -> &U _s_6 `*Cuc -> 0 `i 44  ]
+[; ;time.c: 195: {
+"195
+{
+[; ;time.c: 196: mode = 1;
+"196
+[e = _mode -> -> 1 `i `uc ]
+"197
+}
+[; ;time.c: 197: }
+[e $U 45  ]
+"198
+[e :U 44 ]
+[; ;time.c: 198: else
+[; ;time.c: 199: {
+"199
+{
+[; ;time.c: 200: Write_str(error);
+"200
+[e ( _Write_str (1 &U _error ]
+"201
+}
+[e :U 45 ]
+[e :U 43 ]
+"202
+}
+[; ;time.c: 201: }
+[; ;time.c: 202: }while(!(mode==0||mode==1));
+[e $ ! || == -> _mode `i -> 0 `i == -> _mode `i -> 1 `i 41  ]
+[e :U 40 ]
+"203
+}
+[; ;time.c: 203: }
+[e $U 46  ]
+"204
+[e :U 38 ]
+[; ;time.c: 204: else if(!(strcmp(str, s_2)))
+[e $ ! ! != ( _strcmp (2 , -> &U _str `*Cuc -> &U _s_2 `*Cuc -> 0 `i 47  ]
+[; ;time.c: 205: {
+"205
+{
+[; ;time.c: 206: mode = 2;
+"206
+[e = _mode -> -> 2 `i `uc ]
+"207
+}
+[; ;time.c: 207: }
+[e $U 48  ]
+"208
+[e :U 47 ]
+[; ;time.c: 208: else
+[; ;time.c: 209: {
+"209
+{
+[; ;time.c: 210: Write_str(error);
+"210
+[e ( _Write_str (1 &U _error ]
+"211
+}
+[e :U 48 ]
+[e :U 46 ]
+"212
+}
+[; ;time.c: 211: }
+[; ;time.c: 212: }while(!(mode==0 || mode==1 || mode==2));
+[e $ ! || || == -> _mode `i -> 0 `i == -> _mode `i -> 1 `i == -> _mode `i -> 2 `i 37  ]
+[e :U 36 ]
+[; ;time.c: 213: Set_time(&s, &m, &h ,mode);
+"213
+[e ( _Set_time (4 , , , &U _s &U _m &U _h _mode ]
+[; ;time.c: 214: Write_time_(s, m, h);
+"214
+[e ( _Write_time_ (3 , , _s _m _h ]
+[; ;time.c: 215: day = Set_day();
+"215
+[e = _day ( _Set_day ..  ]
+[; ;time.c: 216: Set_date(&date, &month, &year);
+"216
+[e ( _Set_date (3 , , &U _date &U _month &U _year ]
+[; ;time.c: 217: Write_time(day, date, month, year);
+"217
+[e ( _Write_time (4 , , , _day _date _month _year ]
+[; ;time.c: 218: return (mode);
+"218
+[e ) _mode ]
+[e $UE 34  ]
+[; ;time.c: 219: }
+"219
+[e :UE 34 ]
+}
+"224
+[v _Read_sec `(v ~T0 @X0 1 ef1`*uc ]
+{
+[; ;time.c: 223: void Read_sec(unsigned char * e)
+[; ;time.c: 224: {
+[e :U _Read_sec ]
+[v _e `*uc ~T0 @X0 1 r1 ]
+[f ]
+"225
+[v _c `uc ~T0 @X0 1 a ]
+[; ;time.c: 225: unsigned char c;
+[; ;time.c: 226: e=e+6;
+"226
+[e = _e + _e * -> -> 6 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 227: c = Read();
+"227
+[e = _c ( _Read ..  ]
+[; ;time.c: 228: *e = ((c>>4)&0x07) + '0';
+"228
+[e = *U _e -> + -> & >> -> _c `i -> 4 `i -> 7 `i `ui -> 48 `ui `uc ]
+[; ;time.c: 229: e++;
+"229
+[e ++ _e * -> -> 1 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 230: *e = (c&0x0F) + '0';
+"230
+[e = *U _e -> + -> & -> _c `i -> 15 `i `ui -> 48 `ui `uc ]
+[; ;time.c: 231: e++;
+"231
+[e ++ _e * -> -> 1 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 232: *e = ' ';
+"232
+[e = *U _e -> -> 32 `ui `uc ]
+[; ;time.c: 233: }
+"233
+[e :UE 49 ]
+}
+"238
+[v _Read_min `(v ~T0 @X0 1 ef1`*uc ]
+{
+[; ;time.c: 237: void Read_min(unsigned char * e)
+[; ;time.c: 238: {
+[e :U _Read_min ]
+[v _e `*uc ~T0 @X0 1 r1 ]
+[f ]
+"239
+[v _c `uc ~T0 @X0 1 a ]
+[; ;time.c: 239: unsigned char c;
+[; ;time.c: 240: e= e+3;
+"240
+[e = _e + _e * -> -> 3 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 241: c = Read();
+"241
+[e = _c ( _Read ..  ]
+[; ;time.c: 242: *e = ((c>>4)&0x07) + '0';
+"242
+[e = *U _e -> + -> & >> -> _c `i -> 4 `i -> 7 `i `ui -> 48 `ui `uc ]
+[; ;time.c: 243: e++;
+"243
+[e ++ _e * -> -> 1 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 244: *e = (c&0x0F) + '0';
+"244
+[e = *U _e -> + -> & -> _c `i -> 15 `i `ui -> 48 `ui `uc ]
+[; ;time.c: 245: e++;
+"245
+[e ++ _e * -> -> 1 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 246: *e = ':';
+"246
+[e = *U _e -> -> 58 `ui `uc ]
+[; ;time.c: 247: }
+"247
+[e :UE 50 ]
+}
+"252
+[v _Read_hour `(v ~T0 @X0 1 ef2`*uc`uc ]
+{
+[; ;time.c: 251: void Read_hour(unsigned char * e, unsigned char mode)
+[; ;time.c: 252: {
+[e :U _Read_hour ]
+[v _e `*uc ~T0 @X0 1 r1 ]
+[v _mode `uc ~T0 @X0 1 r2 ]
+[f ]
+"253
+[v _c `uc ~T0 @X0 1 a ]
+[v _i `uc ~T0 @X0 1 a ]
+[; ;time.c: 253: unsigned char c,i=0;
+[e = _i -> -> 0 `i `uc ]
+[; ;time.c: 254: c = Read();
+"254
+[e = _c ( _Read ..  ]
+[; ;time.c: 255: if((mode==0)||(mode==1))
+"255
+[e $ ! || == -> _mode `i -> 0 `i == -> _mode `i -> 1 `i 52  ]
+[; ;time.c: 256: *e = ((c>>4)&0x01) + '0';
+"256
+[e = *U _e -> + -> & >> -> _c `i -> 4 `i -> 1 `i `ui -> 48 `ui `uc ]
+[e $U 53  ]
+"257
+[e :U 52 ]
+[; ;time.c: 257: else
+[; ;time.c: 258: *e = ((c>>4)&0x03) + '0';
+"258
+[e = *U _e -> + -> & >> -> _c `i -> 4 `i -> 3 `i `ui -> 48 `ui `uc ]
+[e :U 53 ]
+[; ;time.c: 259: e++;
+"259
+[e ++ _e * -> -> 1 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 260: *e = (c&0x0F) + '0';
+"260
+[e = *U _e -> + -> & -> _c `i -> 15 `i `ui -> 48 `ui `uc ]
+[; ;time.c: 261: e++;
+"261
+[e ++ _e * -> -> 1 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 262: *e = ':';
+"262
+[e = *U _e -> -> 58 `ui `uc ]
+[; ;time.c: 263: while(i!=11)
+"263
+[e $U 54  ]
+[e :U 55 ]
+[; ;time.c: 264: {
+"264
+{
+[; ;time.c: 265: e++;
+"265
+[e ++ _e * -> -> 1 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 266: i++;
+"266
+[e ++ _i -> -> 1 `i `uc ]
+"267
+}
+[e :U 54 ]
+"263
+[e $ != -> _i `i -> 11 `i 55  ]
+[e :U 56 ]
+[; ;time.c: 267: }
+[; ;time.c: 268: if((c>>6)&0x01)
+"268
+[e $ ! != & >> -> _c `i -> 6 `i -> 1 `i -> 0 `i 57  ]
+[; ;time.c: 269: {
+"269
+{
+[; ;time.c: 270: if((c>>5)&0x01)
+"270
+[e $ ! != & >> -> _c `i -> 5 `i -> 1 `i -> 0 `i 58  ]
+[; ;time.c: 271: *e = 'P';
+"271
+[e = *U _e -> -> 80 `ui `uc ]
+[e $U 59  ]
+"272
+[e :U 58 ]
+[; ;time.c: 272: else
+[; ;time.c: 273: *e = 'A';
+"273
+[e = *U _e -> -> 65 `ui `uc ]
+[e :U 59 ]
+[; ;time.c: 274: e++;
+"274
+[e ++ _e * -> -> 1 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 275: *e = 'M';
+"275
+[e = *U _e -> -> 77 `ui `uc ]
+"276
+}
+[e :U 57 ]
+[; ;time.c: 276: }
+[; ;time.c: 277: }
+"277
+[e :UE 51 ]
+}
+"285
+[v _Write_ARR `(v ~T0 @X0 1 ef2`*uc`*uc ]
+{
+[; ;time.c: 284: void Write_ARR(unsigned char *c, unsigned char * e)
+[; ;time.c: 285: {
+[e :U _Write_ARR ]
+[v _c `*uc ~T0 @X0 1 r1 ]
+[v _e `*uc ~T0 @X0 1 r2 ]
+[f ]
+[; ;time.c: 286: e = e+17;
+"286
+[e = _e + _e * -> -> 17 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 287: while(*c!='\0')
+"287
+[e $U 61  ]
+[e :U 62 ]
+[; ;time.c: 288: {
+"288
+{
+[; ;time.c: 289: *e = *c;
+"289
+[e = *U _e *U _c ]
+[; ;time.c: 290: e++;
+"290
+[e ++ _e * -> -> 1 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 291: c++;
+"291
+[e ++ _c * -> -> 1 `i `x -> -> # *U _c `i `x ]
+"292
+}
+[e :U 61 ]
+"287
+[e $ != -> *U _c `ui -> 0 `ui 62  ]
+[e :U 63 ]
+[; ;time.c: 292: }
+[; ;time.c: 293: e = e+2;
+"293
+[e = _e + _e * -> -> 2 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 294: *e = ' ';
+"294
+[e = *U _e -> -> 32 `ui `uc ]
+[; ;time.c: 295: }
+"295
+[e :UE 60 ]
+}
+"300
+[v _write_DAY `(v ~T0 @X0 1 ef1`uc ]
+{
+[; ;time.c: 299: void write_DAY(unsigned char day)
+[; ;time.c: 300: {
+[e :U _write_DAY ]
+[v _day `uc ~T0 @X0 1 r1 ]
+[f ]
+"301
+[v F256 `uc ~T0 @X0 -> 4 `i s ]
+[i F256
+:U ..
+-> 83 `c
+-> 85 `c
+-> 78 `c
+-> 0 `c
+..
+]
+[v _day_1 `uc ~T0 @X0 -> 4 `i a ]
+[; ;time.c: 301: unsigned char day_1[4] = "SUN";
+[e = _day_1 F256 ]
+"302
+[v F258 `uc ~T0 @X0 -> 4 `i s ]
+[i F258
+:U ..
+-> 77 `c
+-> 79 `c
+-> 78 `c
+-> 0 `c
+..
+]
+[v _day_2 `uc ~T0 @X0 -> 4 `i a ]
+[; ;time.c: 302: unsigned char day_2[4] = "MON";
+[e = _day_2 F258 ]
+"303
+[v F260 `uc ~T0 @X0 -> 4 `i s ]
+[i F260
+:U ..
+-> 84 `c
+-> 85 `c
+-> 69 `c
+-> 0 `c
+..
+]
+[v _day_3 `uc ~T0 @X0 -> 4 `i a ]
+[; ;time.c: 303: unsigned char day_3[4] = "TUE";
+[e = _day_3 F260 ]
+"304
+[v F262 `uc ~T0 @X0 -> 4 `i s ]
+[i F262
+:U ..
+-> 87 `c
+-> 69 `c
+-> 68 `c
+-> 0 `c
+..
+]
+[v _day_4 `uc ~T0 @X0 -> 4 `i a ]
+[; ;time.c: 304: unsigned char day_4[4] = "WED";
+[e = _day_4 F262 ]
+"305
+[v F264 `uc ~T0 @X0 -> 4 `i s ]
+[i F264
+:U ..
+-> 84 `c
+-> 72 `c
+-> 85 `c
+-> 0 `c
+..
+]
+[v _day_5 `uc ~T0 @X0 -> 4 `i a ]
+[; ;time.c: 305: unsigned char day_5[4] = "THU";
+[e = _day_5 F264 ]
+"306
+[v F266 `uc ~T0 @X0 -> 4 `i s ]
+[i F266
+:U ..
+-> 70 `c
+-> 82 `c
+-> 73 `c
+-> 0 `c
+..
+]
+[v _day_6 `uc ~T0 @X0 -> 4 `i a ]
+[; ;time.c: 306: unsigned char day_6[4] = "FRI";
+[e = _day_6 F266 ]
+"307
+[v F268 `uc ~T0 @X0 -> 4 `i s ]
+[i F268
+:U ..
+-> 83 `c
+-> 65 `c
+-> 84 `c
+-> 0 `c
+..
+]
+[v _day_7 `uc ~T0 @X0 -> 4 `i a ]
+[; ;time.c: 307: unsigned char day_7[4] = "SAT";
+[e = _day_7 F268 ]
+[; ;time.c: 309: switch(day)
+"309
+[e $U 66  ]
+[; ;time.c: 310: {
+"310
+{
+[; ;time.c: 311: case 1: Write_ARR(day_1, time);
+"311
+[e :U 67 ]
+[e ( _Write_ARR (2 , &U _day_1 &U _time ]
+[; ;time.c: 312: break;
+"312
+[e $U 65  ]
+[; ;time.c: 313: case 2: Write_ARR(day_2, time);
+"313
+[e :U 68 ]
+[e ( _Write_ARR (2 , &U _day_2 &U _time ]
+[; ;time.c: 314: break;
+"314
+[e $U 65  ]
+[; ;time.c: 315: case 3: Write_ARR(day_3, time);
+"315
+[e :U 69 ]
+[e ( _Write_ARR (2 , &U _day_3 &U _time ]
+[; ;time.c: 316: break;
+"316
+[e $U 65  ]
+[; ;time.c: 317: case 4: Write_ARR(day_4, time);
+"317
+[e :U 70 ]
+[e ( _Write_ARR (2 , &U _day_4 &U _time ]
+[; ;time.c: 318: break;
+"318
+[e $U 65  ]
+[; ;time.c: 319: case 5: Write_ARR(day_5, time);
+"319
+[e :U 71 ]
+[e ( _Write_ARR (2 , &U _day_5 &U _time ]
+[; ;time.c: 320: break;
+"320
+[e $U 65  ]
+[; ;time.c: 321: case 6: Write_ARR(day_6, time);
+"321
+[e :U 72 ]
+[e ( _Write_ARR (2 , &U _day_6 &U _time ]
+[; ;time.c: 322: break;
+"322
+[e $U 65  ]
+[; ;time.c: 323: case 7: Write_ARR(day_7, time);
+"323
+[e :U 73 ]
+[e ( _Write_ARR (2 , &U _day_7 &U _time ]
+[; ;time.c: 324: break;
+"324
+[e $U 65  ]
+"325
+}
+[; ;time.c: 325: }
+[e $U 65  ]
+"309
+[e :U 66 ]
+[e [\ _day , $ -> -> 1 `i `uc 67
+ , $ -> -> 2 `i `uc 68
+ , $ -> -> 3 `i `uc 69
+ , $ -> -> 4 `i `uc 70
+ , $ -> -> 5 `i `uc 71
+ , $ -> -> 6 `i `uc 72
+ , $ -> -> 7 `i `uc 73
+ 65 ]
+"325
+[e :U 65 ]
+[; ;time.c: 326: }
+"326
+[e :UE 64 ]
+}
+"332
+[v _Read_day `(v ~T0 @X0 1 ef ]
+{
+[; ;time.c: 331: void Read_day(void)
+[; ;time.c: 332: {
+[e :U _Read_day ]
+[f ]
+[; ;time.c: 333: write_DAY(0x07 & Read());
+"333
+[e ( _write_DAY (1 -> & -> 7 `i -> ( _Read ..  `i `uc ]
+[; ;time.c: 334: }
+"334
+[e :UE 74 ]
+}
+"339
+[v _Read_date `(v ~T0 @X0 1 ef1`*uc ]
+{
+[; ;time.c: 338: void Read_date(unsigned char * e)
+[; ;time.c: 339: {
+[e :U _Read_date ]
+[v _e `*uc ~T0 @X0 1 r1 ]
+[f ]
+"340
+[v _c `uc ~T0 @X0 1 a ]
+[; ;time.c: 340: unsigned char c;
+[; ;time.c: 341: e= e+23;
+"341
+[e = _e + _e * -> -> 23 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 342: *e = ' ';
+"342
+[e = *U _e -> -> 32 `ui `uc ]
+[; ;time.c: 343: e++;
+"343
+[e ++ _e * -> -> 1 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 344: c = Read();
+"344
+[e = _c ( _Read ..  ]
+[; ;time.c: 345: *e = ((c>>4)&0x03) + '0';
+"345
+[e = *U _e -> + -> & >> -> _c `i -> 4 `i -> 3 `i `ui -> 48 `ui `uc ]
+[; ;time.c: 346: e++;
+"346
+[e ++ _e * -> -> 1 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 347: *e = (c&0x0F) + '0';
+"347
+[e = *U _e -> + -> & -> _c `i -> 15 `i `ui -> 48 `ui `uc ]
+[; ;time.c: 348: e++;
+"348
+[e ++ _e * -> -> 1 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 349: *e = '/';
+"349
+[e = *U _e -> -> 47 `ui `uc ]
+[; ;time.c: 350: }
+"350
+[e :UE 75 ]
+}
+"355
+[v _Read_month `(v ~T0 @X0 1 ef1`*uc ]
+{
+[; ;time.c: 354: void Read_month(unsigned char *e)
+[; ;time.c: 355: {
+[e :U _Read_month ]
+[v _e `*uc ~T0 @X0 1 r1 ]
+[f ]
+"356
+[v _c `uc ~T0 @X0 1 a ]
+[; ;time.c: 356: unsigned char c;
+[; ;time.c: 357: e= e+27;
+"357
+[e = _e + _e * -> -> 27 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 358: c = Read();
+"358
+[e = _c ( _Read ..  ]
+[; ;time.c: 359: *e = ((c>>4)&0x01) + '0';
+"359
+[e = *U _e -> + -> & >> -> _c `i -> 4 `i -> 1 `i `ui -> 48 `ui `uc ]
+[; ;time.c: 360: e++;
+"360
+[e ++ _e * -> -> 1 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 361: *e = (c&0x0F) + '0';
+"361
+[e = *U _e -> + -> & -> _c `i -> 15 `i `ui -> 48 `ui `uc ]
+[; ;time.c: 362: e++;
+"362
+[e ++ _e * -> -> 1 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 363: *e = '/';
+"363
+[e = *U _e -> -> 47 `ui `uc ]
+[; ;time.c: 364: }
+"364
+[e :UE 76 ]
+}
+"370
+[v _Read_year `(v ~T0 @X0 1 ef1`*uc ]
+{
+[; ;time.c: 369: void Read_year(unsigned char *e)
+[; ;time.c: 370: {
+[e :U _Read_year ]
+[v _e `*uc ~T0 @X0 1 r1 ]
+[f ]
+"371
+[v _c `uc ~T0 @X0 1 a ]
+[; ;time.c: 371: unsigned char c;
+[; ;time.c: 372: e= e+30;
+"372
+[e = _e + _e * -> -> 30 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 373: c = Read();
+"373
+[e = _c ( _Read ..  ]
+[; ;time.c: 374: *e = (c>>4) + '0';
+"374
+[e = *U _e -> + -> >> -> _c `i -> 4 `i `ui -> 48 `ui `uc ]
+[; ;time.c: 375: e++;
+"375
+[e ++ _e * -> -> 1 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 376: *e = (c&0x0F) + '0';
+"376
+[e = *U _e -> + -> & -> _c `i -> 15 `i `ui -> 48 `ui `uc ]
+[; ;time.c: 377: e++;
+"377
+[e ++ _e * -> -> 1 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 378: *e = '\r';
+"378
+[e = *U _e -> -> 13 `ui `uc ]
+[; ;time.c: 379: e++;
+"379
+[e ++ _e * -> -> 1 `i `x -> -> # *U _e `i `x ]
+[; ;time.c: 380: *e = '\0';
+"380
+[e = *U _e -> -> 0 `ui `uc ]
+[; ;time.c: 381: }
+"381
+[e :UE 77 ]
+}
